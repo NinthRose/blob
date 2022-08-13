@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>first blood</title>
+      <link href="/2022/08/07/first-archive/"/>
+      <url>/2022/08/07/first-archive/</url>
+      
+        <content type="html"><![CDATA[<h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1><h2 id="more-title"><a href="#more-title" class="headerlink" title="more title"></a>more title</h2><p><em>字体样式test</em></p><p><strong>待添加功能</strong></p><ul><li><input checked="" disabled="" type="checkbox"> 首页背景</li><li><input checked="" disabled="" type="checkbox"> 滚动副标题</li><li><input disabled="" type="checkbox"> 评论<ul><li>待审核</li></ul></li><li><input checked="" disabled="" type="checkbox"> 添加音乐<ul><li><code>&#123;% meting "1901371647" "netease" "song" "autoplay" "autoplay:true" "mutex:true" "preload:auto" %&#125;</code></li><li><code>&lt;div class=&quot;aplayer no-destroy&quot; data-id=&quot;1441758494&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot;  data-autoplay=&quot;false&quot; data-lrcType=&quot;-1&quot;&gt;&lt;/div&gt;</code><ul><li>server可选：netease（网易云音乐），tencent（QQ音乐），kugou（酷狗音乐），xiami（虾米音乐），baidu（百度音乐）。建议网易云</li><li>type可选：song（歌曲），playlist（歌单），album（专辑），search（搜索关键字），artist（歌手）。添加单曲选的歌曲，歌单选择playlist，可以自行尝试。</li><li>id获取示例: 打开网易云音乐，选择喜欢的歌单，在网页版打开，获取歌单list，填入即可。使用的时候将上边的ID号换为自己喜欢的歌单即可。注意歌单中不能包括VIP音乐，否则无法解析。建议单独建立一个歌单，以后有喜欢的音乐添加进去，网页也会自动同步添加。</li><li>lrcType设置为 -1默认显示歌词，放在fixed模式下比较合适。</li></ul></li></ul></li><li><input disabled="" type="checkbox"> 添加吸底</li></ul>    <div id="aplayer-LZxqmKKP" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1901371647" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><div class="aplayer no-destroy" data-id="1441758494" data-server="netease" data-type="song" data-autoplay="false" data-lrcType="-1"></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
