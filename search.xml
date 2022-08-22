@@ -4,13 +4,1097 @@
   
     
     <entry>
-      <title>first blood</title>
-      <link href="/2022/08/07/first-archive/"/>
-      <url>/2022/08/07/first-archive/</url>
+      <title>厨艺展示</title>
+      <link href="/2022/08/16/tattle/zheng-dou-fu/"/>
+      <url>/2022/08/16/tattle/zheng-dou-fu/</url>
       
-        <content type="html"><![CDATA[<h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1><h2 id="more-title"><a href="#more-title" class="headerlink" title="more title"></a>more title</h2><p><em>字体样式test</em></p><p><strong>待添加功能</strong></p><ul><li><input checked="" disabled="" type="checkbox"> 首页背景</li><li><input checked="" disabled="" type="checkbox"> 滚动副标题</li><li><input disabled="" type="checkbox"> 评论<ul><li>待审核</li></ul></li><li><input checked="" disabled="" type="checkbox"> 添加音乐<ul><li><code>&#123;% meting "1901371647" "netease" "song" "autoplay" "autoplay:true" "mutex:true" "preload:auto" %&#125;</code></li><li><code>&lt;div class=&quot;aplayer no-destroy&quot; data-id=&quot;1441758494&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot;  data-autoplay=&quot;false&quot; data-lrcType=&quot;-1&quot;&gt;&lt;/div&gt;</code><ul><li>server可选：netease（网易云音乐），tencent（QQ音乐），kugou（酷狗音乐），xiami（虾米音乐），baidu（百度音乐）。建议网易云</li><li>type可选：song（歌曲），playlist（歌单），album（专辑），search（搜索关键字），artist（歌手）。添加单曲选的歌曲，歌单选择playlist，可以自行尝试。</li><li>id获取示例: 打开网易云音乐，选择喜欢的歌单，在网页版打开，获取歌单list，填入即可。使用的时候将上边的ID号换为自己喜欢的歌单即可。注意歌单中不能包括VIP音乐，否则无法解析。建议单独建立一个歌单，以后有喜欢的音乐添加进去，网页也会自动同步添加。</li><li>lrcType设置为 -1默认显示歌词，放在fixed模式下比较合适。</li></ul></li></ul></li><li><input disabled="" type="checkbox"> 添加吸底</li></ul>    <div id="aplayer-LZxqmKKP" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1901371647" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><div class="aplayer no-destroy" data-id="1441758494" data-server="netease" data-type="song" data-autoplay="false" data-lrcType="-1"></div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/./img/cookie/zheng-dou-fu.jpeg" alt="蒸豆腐"></p>          </div>]]></content>
       
       
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> daily </tag>
+            
+            <tag> cookie </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>被骗炉小哥</title>
+      <link href="/2022/08/15/restaurant/MRHot%E2%80%98sGrill-md/"/>
+      <url>/2022/08/15/restaurant/MRHot%E2%80%98sGrill-md/</url>
+      
+        <content type="html"><![CDATA[<p>又来到了最喜欢吃的烤又店啦～炉小哥烤又店～</p><blockquote><p>上上次会员日送了五折券，上次周末去说不能用，这次说只能中午用，太坑啦！！！强烈反对，再也不积极去了。恶心的促销政策，每次都不说清楚。</p></blockquote><ul><li>炸土豆<ul><li>超级好吃，外面特别脆</li></ul></li><li>炒饭<ul><li>里面的脆香米让口感特别好，不过酱多，味道有些重，下次让他们少放点料。</li></ul></li><li>甜点<ul><li>积分兑换新品试吃。冰淇凌还可以，下面的面包不太好吃</li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/restaurant/luxiaoge-1.jpeg" alt="挑选又又"><br><img src="/./img/restaurant/luxiaoge-2.jpeg" alt="饮尼奥"><br><img src="/./img/restaurant/luxiaoge-3.jpeg" alt="鸭血"><br><img src="/./img/restaurant/luxiaoge-4.jpeg" alt="炸土豆"><br><img src="/./img/restaurant/luxiaoge-5.jpeg" alt="烤好的又又"><br><img src="/./img/restaurant/luxiaoge-6.jpeg" alt="经典炒饭"><br><img src="/./img/restaurant/luxiaoge-7.jpeg" alt="甜点"></p>          </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 美食推荐 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> restaurant </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>全自动猫砂盆</title>
+      <link href="/2022/08/09/tattle/mao-sha-pen/"/>
+      <url>/2022/08/09/tattle/mao-sha-pen/</url>
+      
+        <content type="html"><![CDATA[<p>说到好物推荐，猫砂盆不得不提。</p><p>养猫的话都知道，每天铲屎真的很累，尤其是某天不想动的时候。真的就是不想动。</p><p>有了这玩意之后，最多一个星期需要清理一次，真的好爽！！！</p><p><strong>还有自动除臭功能，也不再熏鼻子了</strong></p><hr><h2 id="接下来就是吐槽"><a href="#接下来就是吐槽" class="headerlink" title="接下来就是吐槽"></a>接下来就是吐槽</h2><ol><li><strong>不建议使用膨润土猫砂！！！</strong>不管是全自动猫砂盆还是普通猫砂盆<ul><li>除了猫咪爱用，一点好处都没有，又臭又难清理，太多碎砂到处都是。</li></ul></li><li><strong>不建议使用全自动饮水机</strong><ul><li>那个吸附过滤水的功能真的很垃圾。水容易黏糊糊的，猫咪只有头一两天爱喝</li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 好物推荐 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>洗碗机</title>
+      <link href="/2022/08/09/tattle/xi-wan-ji/"/>
+      <url>/2022/08/09/tattle/xi-wan-ji/</url>
+      
+        <content type="html"><![CDATA[<ol><li>款式<ul><li>租房，所以选择台式</li></ul></li><li>使用<ul><li>只有三个按键，很方便</li></ul></li><li>效果<ul><li>洗得很干净</li></ul></li><li>烘干<ul><li>好像没有，但是洗完之后打开发现挺干的</li></ul></li><li>成本<ul><li>算了一下，平均洗一次需要不到一块钱的成本</li><li>专用洗碗盐&#x2F;块，不能使用洗洁精，清洁原理不同。</li></ul></li></ol><ul><li>注意事项（大部分都是）<ul><li>每次放进去之前需要冲一下，不能有大块食物残渣，不然下水很小会堵（有高端洗碗机不需要此操作，还能洗锅）</li></ul></li></ul><blockquote><p><strong>感受上来说，解放双手！</strong><br>吃完饭，收拾一下碗筷，放进去，按键，洗手完事，下次用直接去里面拿</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 好物推荐 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我家的书架长🐱了</title>
+      <link href="/2022/07/18/tattle/2022-7-18/"/>
+      <url>/2022/07/18/tattle/2022-7-18/</url>
+      
+        <content type="html"><![CDATA[<p>搬完家，刚收拾好书架你就上去了。调皮</p><div class="fj-gallery"><p><img src="/./img/cat/shelf-0.jpeg" alt="长🐱的书架ing"><br><img src="/./img/cat/shelf.jpeg" alt="长了🐱的书架"></p>          </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ps到货！</title>
+      <link href="/2022/05/23/tattle/2022-5-23/"/>
+      <url>/2022/05/23/tattle/2022-5-23/</url>
+      
+        <content type="html"><![CDATA[<p>最近周末无聊死了，期待能很好玩吧。有没有有经验的P友，推荐点高质量的游戏吧～</p><div class="fj-gallery"><p><img src="/./img/ps.jpeg" alt="ps"></p>          </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ps </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>赖床不起</title>
+      <link href="/2021/12/04/tattle/2021-12-4/"/>
+      <url>/2021/12/04/tattle/2021-12-4/</url>
+      
+        <content type="html"><![CDATA[<iframe width=550 height=350 src="/img/cat/sleep.mp4" frameborder=0 allowfullscreen></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>舐爹情深</title>
+      <link href="/2021/11/24/tattle/2021-11-24/"/>
+      <url>/2021/11/24/tattle/2021-11-24/</url>
+      
+        <content type="html"><![CDATA[<iframe width=350 height=450 src="/img/cat/lick.mp4" frameborder=0 allowfullscreen></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>古有愚公移山，精卫填海，今有宝子扒书</title>
+      <link href="/2021/10/23/tattle/2021-10-23/"/>
+      <url>/2021/10/23/tattle/2021-10-23/</url>
+      
+        <content type="html"><![CDATA[<p>非得把书扒拉掉完才算满意吧</p><iframe width=350 height=500 src="/img/cat/shelf.mp4" frameborder=0 allowfullscreen></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2021/08/01/books/2021-8-1/"/>
+      <url>/2021/08/01/books/2021-8-1/</url>
+      
+        <content type="html"><![CDATA[<p><em>月初打卡，半年没读书了。继续读书吧！</em></p><p>愿有人陪你颠沛流离，如果没有，愿你成为自己的太阳。——卢思浩</p><ul><li>灯塔<ul><li>还阔以</li></ul></li><li>家人闲坐，灯火可亲<ul><li>日记一样，好无聊</li></ul></li><li>独居的一年<ul><li>刚开始看～</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2021/01/24/books/2021-1-24/"/>
+      <url>/2021/01/24/books/2021-1-24/</url>
+      
+        <content type="html"><![CDATA[<ul><li>优雅<ul><li>讲女人如何优雅，写得很全，特别希望有一本对应的《绅士》</li></ul></li><li>六根岛<ul><li>开头精彩，中间恐怖，结尾无趣</li></ul></li><li>万叶集<ul><li>抱歉，没有文学底蕴，从头到尾看不懂</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/12/24/books/2020-12-24/"/>
+      <url>/2020/12/24/books/2020-12-24/</url>
+      
+        <content type="html"><![CDATA[<p>自从雪季开了，就没打过卡了，补上！</p><ul><li>一个陌生女人的来信<ul><li>很好看，用女人的视角，讲述一个渣男</li></ul></li><li>将死未死的青<ul><li>嗯，不做评价</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/09/29/books/2020-9-29/"/>
+      <url>/2020/09/29/books/2020-9-29/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Opus<ul><li>开头创意很棒，很好看，好吧，也只是开头好看</li></ul></li><li>我要快乐，不必正常<ul><li>因为没有看过前传《橘子不是唯一的水果》所以很多东西不知道在讲什么</li></ul></li><li>撒野<ul><li>男人，哦不，男生的友情（中间总以为有基情ahhh，不过还挺好看的，两个小男生）</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/09/01/books/2020-9-1/"/>
+      <url>/2020/09/01/books/2020-9-1/</url>
+      
+        <content type="html"><![CDATA[<ul><li>呼吸<ul><li>凑合，就第一章节有点意思</li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/books/best-weather.jpeg" alt="昨天下午最佳摄像"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/07/26/books/2020-7-26/"/>
+      <url>/2020/07/26/books/2020-7-26/</url>
+      
+        <content type="html"><![CDATA[<ul><li>有人在周围走动<ul><li>奇怪的小说集，挺好看</li></ul></li><li>人鼠之间<ul><li>见怪不怪了，还可以</li></ul></li><li>窄门<ul><li>读的时候总想起挪威的森林，让人很无奈</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/06/25/books/2020-6-25/"/>
+      <url>/2020/06/25/books/2020-6-25/</url>
+      
+        <content type="html"><![CDATA[<ul><li>游戏<ul><li>一般</li></ul></li><li>21岁以及我的余生<ul><li>这个月最好看的！一个患癌少年自传</li></ul></li><li>人生十二法则<ul><li>哦</li></ul></li><li>那些听过却从未搞明白的问题<ul><li>和《如果没有今天，明天会不会有昨天》一样好看，一本是科学，一本是哲学</li></ul></li><li>绿山墙的安妮<ul><li>听说好看，但我看不进去，不是俺的菜</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/05/29/books/2020-5-29/"/>
+      <url>/2020/05/29/books/2020-5-29/</url>
+      
+        <content type="html"><![CDATA[<ul><li>解忧包子铺<ul><li>补上个月的，还行，包子铺版大冰</li></ul></li><li>局外人<ul><li>没看懂，并怀疑买了本假书</li></ul></li><li>时光边缘的男人<ul><li>挺好看的</li></ul></li><li>傲慢与偏见<ul><li>怎么感觉略俗气，应该是在当时的社会环境下，比较动人，也能我没啥内涵吧，毕竟现在也有不少人喜欢</li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/books/window.jpeg" alt="深夜租房的窗外风景"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/03/30/books/2020-3-30/"/>
+      <url>/2020/03/30/books/2020-3-30/</url>
+      
+        <content type="html"><![CDATA[<ul><li>月亮与六便士<ul><li>为了使灵魂安宁，一个人每天至少该做两件他不喜欢的事<ul><li>通过夸张的极端化故事，放大理想和现实的冲突，增强感受，令人回味</li><li>滑雪，对于我来说，是对平凡生活的浪漫抗议。爱自己，是一生浪漫的开始。</li></ul></li></ul></li><li>今天也想表白你2</li><li>挪威的森林<ul><li>挺好看，不一样的故事</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/02/29/books/2020-2-29/"/>
+      <url>/2020/02/29/books/2020-2-29/</url>
+      
+        <content type="html"><![CDATA[<ul><li>小小小小的火</li><li>无人生还</li></ul><p>这两本都还可以，但也是还可以哈哈。<br>最近发现个app，每天有读书推荐，还不错：</p><div class="fj-gallery"><p><img src="/./img/books/app-1.jpeg" alt="app-1"><br><img src="/./img/books/app-2.jpeg" alt="app-2"><br><img src="/./img/books/app-3.jpeg" alt="app-3"><br><img src="/./img/books/app-4.jpeg" alt="app-4"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/01/31/books/2020-1-31/"/>
+      <url>/2020/01/31/books/2020-1-31/</url>
+      
+        <content type="html"><![CDATA[<ul><li>一句顶一万句<ul><li>挺有意思的故事序列集</li></ul></li><li>因为是你<ul><li>看了三分之一看不下去了</li></ul></li><li>留学的一年<ul><li>很好看，很棒。附图如下～</li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/books/one-year.jpeg" alt="留学的一年"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2020/01/01/books/2020-1-1/"/>
+      <url>/2020/01/01/books/2020-1-1/</url>
+      
+        <content type="html"><![CDATA[<ul><li>绝对小孩1&#x2F;2&#x2F;3</li><li>清单人生<ul><li>一本让我明白了为什么有那么多人支持本地球队的书<ul><li>支持了什么样的球队代表你是什么样的人</li><li>像我这种什么球队都不支持的人，是什么样纸滴尼</li></ul></li><li><strong>希望被原谅的人才没有权利选择原谅与否</strong></li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/books/snapshot.jpeg" alt="snapshot"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/12/02/books/2019-12-2/"/>
+      <url>/2019/12/02/books/2019-12-2/</url>
+      
+        <content type="html"><![CDATA[<p>好吧，本月的书单其实都不咋好看。</p><ul><li>伊比库斯的语言</li><li>死者在说话<ul><li>法医作者，只是科普的话，还挺好看的。</li><li>不过我并不喜欢这些内容，不是因为死者，而是因为叙事方式平平无奇，太枯燥，换种方式，应该会很喜欢看。</li></ul></li><li>带着鲑鱼去旅行</li></ul><div class="fj-gallery"><p><img src="/./img/books/app-5.jpeg" alt="app-5"><br><img src="/./img/books/app-6.jpeg" alt="app-6"><br><img src="/./img/books/app-7.jpeg" alt="app-7"><br><img src="/./img/books/app-8.jpeg" alt="app-8"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/10/29/books/2019-10-29/"/>
+      <url>/2019/10/29/books/2019-10-29/</url>
+      
+        <content type="html"><![CDATA[<h2 id="blank"><a href="#blank" class="headerlink" title="blank"></a><em>blank</em></h2><p>这个月一直在出差，什么书都没读完。</p><hr><p>好吧我不找借口了，这个月太懒了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/09/29/books/2019-9-29/"/>
+      <url>/2019/09/29/books/2019-9-29/</url>
+      
+        <content type="html"><![CDATA[<ul><li>散步去<ul><li>一般般吧</li></ul></li><li>消失的搭车客<ul><li>不好看，辣鸡推荐🐔</li></ul></li><li>无声告白<ul><li>这个还行</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>告别</title>
+      <link href="/2019/09/17/books/byebye/"/>
+      <url>/2019/09/17/books/byebye/</url>
+      
+        <content type="html"><![CDATA[<p>后来才知道，人生的很多告别，都悄无声息。<br>坐上一班地铁，走过某个街角，就消失不见。<br>多年过去，心里不放的，其实是你还欠我的那个告别。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲言碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+            <tag> tattle </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/08/28/books/2019-8-28/"/>
+      <url>/2019/08/28/books/2019-8-28/</url>
+      
+        <content type="html"><![CDATA[<p>这个月的都还挺好看的，尤其是悲惨自传小说…</p><ul><li>喵呜，原来你是这种汪</li><li>房思琪的初恋乐园</li><li>时光倒流的女孩</li><li>十四行诗</li><li>无声告白<ul><li>还没看完</li></ul></li></ul><hr><p>从逼自己看书已有一年啦！不知不觉居然已经看了这么多乱七八糟的书了～</p><div class="fj-gallery"><p><img src="/./img/books/first-year.jpeg" alt="第一年看的书"></p>          </div><hr><h1 id="十四行诗"><a href="#十四行诗" class="headerlink" title="十四行诗"></a>十四行诗</h1><p>《诗经·卫风·硕人》：“手如柔荑，肤如凝脂，领如蝤（qiú）蛴（qí），齿如瓠（hù）犀（xī），螓首蛾眉，巧笑倩兮，美目盼兮！”</p><p>手指纤纤如嫩荑，皮肤白皙如凝脂，美丽脖颈像蝤蛴，牙如瓠籽白又齐，额头方正眉弯细。微微一笑酒窝妙，美目顾盼眼波俏。</p><h2 id="赏析编辑"><a href="#赏析编辑" class="headerlink" title="赏析编辑"></a>赏析编辑</h2><p>《硕人》写春秋时代卫庄公夫人庄姜从齐国嫁到卫国时的盛况。这七句诗集中描述庄姜美丽的容貌。七句中有五句用比喻，有六句用排比。通过一连串的比喻和排比，使形象更为逼真传神，如一幅栩栩如生的美人图。吴闿生《诗义会通》集旧评云：“手如五句状其貌，末二句并及性情，生动处《洛神》之蓝本也。”后来诗词中描写美女常用这些比喻，即源于此。</p><h2 id="原作"><a href="#原作" class="headerlink" title="原作"></a>原作</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">硕人其颀，衣锦褧衣。齐侯之子，卫侯之妻，东宫之妹，邢侯之姨，谭公维私。</span><br><span class="line">手如柔荑，肤如凝脂，领如蝤蛴，齿如瓠犀，螓首蛾眉，巧笑倩兮！美目盼兮！</span><br><span class="line">硕人敖敖，说于农郊。四牡有骄，朱帏镳镳，翟茀以朝。大夫夙退，无使君劳。</span><br><span class="line">河水洋洋，北流活活。施罘岁岁，鱣鲔发发，葭菼揭揭。庶姜孽孽，庶士有竭。</span><br></pre></td></tr></table></figure><h2 id="部分词语解释："><a href="#部分词语解释：" class="headerlink" title="部分词语解释："></a>部分词语解释：</h2><ul><li>蝤蛴：qiúqí 天牛的幼虫。天牛科。黄白色,身长足短,呈圆筒形。蛀食树木枝干,是森林、桑树和果树的主要害虫。借以比喻妇女脖颈之美。</li><li>瓠:hù 一年生草本植物,爬蔓,夏开白花,果实长圆形,嫩时可吃。如①瓠齿：整齐、洁白的牙齿。②瓠肥：又白又胖。③瓠脯：干菜的一种，即瓠子干。④瓠犀：瓠瓜的子。因排列整齐,色泽洁白,所以常用来比喻美人的牙齿，也作瓠栖。</li><li>螓:qín 蝉的一种。体小,方头,广额而有文彩。如，①螓首：妇人的额头,方广如螓。②螓首蛾眉：额广而眉弯。用以形容妇人容貌的美丽。</li><li>倩:①含笑的样子。②士之美称。③泛指姿容美好。</li><li>盼：本义:眼睛黑白分明的样子</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/07/30/books/2019-7-30/"/>
+      <url>/2019/07/30/books/2019-7-30/</url>
+      
+        <content type="html"><![CDATA[<ul><li>海错图笔记</li><li>不想和你谈人生，只想和你谈恋爱</li><li>ZOO<ul><li>虽然是恐怖短篇小说集，还是推荐下哈，很好看～</li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/books/cartoon.jpeg" alt="cartoon"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/07/01/books/2019-7-1/"/>
+      <url>/2019/07/01/books/2019-7-1/</url>
+      
+        <content type="html"><![CDATA[<p>这个月比较。。。颓？只看了一本…</p><ul><li>我遇见了人类</li></ul><p><strong>对地球人的建议</strong></p><ul><li>不要老想着扮冷扮酷。整个宇宙已经够冷了。真正宝贵的是温暖的东西。</li><li>每个人都是一出喜剧。如果有人笑话你，他们只是不明白他们笑话的是他们自己。</li><li>如果你可以活一千年之久，那么你所知道的一切都将被证明为错误。</li><li>没有两套道德体系正好匹配的。接受不同形状的道德吧，只要他们不会尖锐如伤人的刀锋。</li><li>你母亲爱你父亲，尽管她假装不爱。</li><li>服从你的大脑。服从你的心。服从你的血性。总而言之，服从除命令之外的一切。</li><li>保持活力。这是你对这个世界应尽的最高义务。</li><li>礼貌常常等于恐惧。友善往往等于勇气。但关爱却使你富有人性。</li><li>在大脑中，把每一天的名称改为星期六，然后再把工作的名称改为嬉戏。</li><li>如果你觉得某件事物很丑陋，不妨仔细多看看。丑陋只是因为没有看见美。</li></ul><p><strong>人类指南</strong></p><ul><li>抱负<ul><li>一种因缺乏父母关爱或同辈群体接纳而导致的欲求不满的状态</li></ul></li><li>焦虑<ul><li>思考导致的必然结果</li></ul></li><li>外表<ul><li>别人会对你加以评判的东西</li></ul></li><li>美<ul><li>人类可以在任何地方发现美，美只是一种使他们意识到人生短暂的提醒</li></ul></li><li>职业<ul><li>一种老掉牙的就业理念</li></ul></li><li>文明<ul><li>人类聚集在一起压抑本能的结果</li></ul></li><li>衣服<ul><li>要想被他人接受，就必须找个套子把自己装起来，穿衣就是最好的方式</li></ul></li><li>放荡<ul><li>一种因热爱享乐，缺乏内疚而产生的行为</li><li>人类是一种会死的物种，所以他们喜欢新事物或极古老的事物。年代久远的时候，有助于他们相信永恒，而新事物则可以帮助他们相信自己的大脑。</li></ul></li><li>抑郁<ul><li>一种传染病，智商高于平均水平的所有人类最重要走向的必然归宿。</li></ul></li><li>梦<ul><li>心之所至，行之所往的人就不需要的东西</li></ul></li><li>恶<ul><li>阻碍他人打成自私目标的自私行为</li></ul></li><li>小说<ul><li>看起来像谎言的真相</li></ul></li><li>自由<ul><li>更大的牢笼</li></ul></li><li>朋友<ul><li>会告诉你真相的人</li></ul></li><li>未来<ul><li>和现在差不多</li></ul></li><li>天才<ul><li>把家庭以及正式教育提供的每一张虚假地图都通通扔在一边，自行寻找出路的人(但我觉得这种说法不太合适)</li></ul></li><li>头发<ul><li>人类相互判断对方之社会价值的方式</li></ul></li><li>荣誉<ul><li>一种一钱不值的东西</li></ul></li><li>希望<ul><li>无论种种证据表示绝无可能，也始终相信会有正面的结果。</li></ul></li><li>伪君子<ul><li>人类的同义词</li></ul></li><li>想象<ul><li>自由唯一的立足之地</li></ul></li><li>知识<ul><li>一种稀缺商品</li></ul></li><li>生活<ul><li>貌似真实的谎言</li></ul></li><li>爱<ul><li>弥补无法永生的东西</li></ul></li><li>记忆<ul><li>过往经历触发的幻觉</li></ul></li><li>遗忘<ul><li>一种幸福的思维状态</li></ul></li><li>耐心<ul><li>无声的愤怒</li></ul></li><li>进步<ul><li>最流行的人类神话</li></ul></li><li>满足<ul><li>一种不可能实现的状态</li></ul></li><li>羞怯<ul><li>人类最大的残疾</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>孤独</title>
+      <link href="/2019/06/06/books/alone/"/>
+      <url>/2019/06/06/books/alone/</url>
+      
+        <content type="html"><![CDATA[<ul><li>这一栏要填。</li><li>填什么？</li><li>填自己配偶。</li><li>离婚了。</li><li>父母呢？</li><li>很小的时候就去世了。</li><li>兄弟姐妹呢？</li><li>独生子，就我一个。</li><li>填子女也行。</li><li>没有孩子。</li><li>那七大姑八大姨表兄弟姐妹也可以。</li><li>男子摇摇头：都没有，我是孤儿。</li></ul><p>办事员之后就一直没说话，那个男子办完事转身的时候，我看到他的眼睛红红的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+            <tag> daily </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/05/29/books/2019-5-29/"/>
+      <url>/2019/05/29/books/2019-5-29/</url>
+      
+        <content type="html"><![CDATA[<p>这个月看的书真的一个比一个好看啊！！！！！！开心ヽ(○^㉨^)ﾉ♪</p><ul><li>分成两半的子爵</li><li>因为你，我爱上了这个世界</li><li>蓝色小药丸<ul><li>艾滋病患者的绘本故事，很棒，看完让人更容易对患者理解，包容，接纳；确实起到了书创作出发点的作用。</li></ul></li><li>真相</li></ul><h1 id="真相"><a href="#真相" class="headerlink" title="真相"></a>真相</h1><p>人生就是一次漫长坠落的过程，最重要的就是要学会跌倒。</p><p>当需要斟词酌句的时候你却不假思索。</p><p>爱情这件事情很复杂，非常复杂。这可能是最美妙的事情，也可能是最坏的事情。你将会知道的。爱情有可能会让人很难受。但是你千万不要害怕尝试，特别是不要害怕坠入爱河，因为爱情同样可以是很美好的，和其他一切美好的事情一样，它能将你诱惑，也能让你伤心欲绝。这也是为什么我们通常在相爱之后会痛哭流涕的原因。</p><p>要想知道你爱一个人爱得有多深的唯一办法就是，失去这个人。</p><p>生活本没有太多意思，我们却可以赋予生活意义。其实赋予的意义，更加的虚无缥缈不是么，只是人们为了给自己活着的劲头增添一丝肯定而已。我才不要做这种虚伪的人。</p><hr><p>强烈推荐一本书，若埃尔迪克的《真相》，结局反转至少七次，高潮部分占整书的四分之一，一个比一个惊人，相比而言，看不见的客人这部经典佳作可以说只称得上饭前甜点，东野的书只能算花毛双拼。强推强推强推！！！看完的时候凌晨三点半[捂脸][捂脸]太好看了，这本书去年是绝版的，最近看到可以买了。推荐！！！表示是看完了电子书以后再买的实体书来收藏一下（*&#x2F;∇＼*）有时间一定要重读一遍，真的是太好看了啊[捂脸][捂脸]</p><p>读小说为的就是各种铺垫之后的意外转折带来的双臂起鸡皮疙瘩的那一刻——忘了是谁说的了|･ω･｀)<br>而这本书，每次回想起来就全身鸡皮疙瘩。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>玛格丽特小镇</title>
+      <link href="/2019/05/13/books/ma-ge-li-te-town/"/>
+      <url>/2019/05/13/books/ma-ge-li-te-town/</url>
+      
+        <content type="html"><![CDATA[<p>你在一个地方认识的人，定义了那个地方对你的意义</p><p>每个地方都喜欢在你初来乍到之时卖力讨好，然而到了离别时刻却难免冷冷清清，有时当你离开一个地方，你甚至都不知道自己已经离开了。</p><p>对初恋的执念从来都是跟对象无关，都是人们对自己的怀念。</p><p>有些地方没看懂，可能因为尚未经历。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/03/31/books/2019-3-31/"/>
+      <url>/2019/03/31/books/2019-3-31/</url>
+      
+        <content type="html"><![CDATA[<ul><li>罗生门</li><li>在世界和我之间</li><li>柒(文珍)<ul><li><strong>递纸巾是一种提醒别再哭了的粗暴暗示</strong></li><li>寂寞就像水龙头被一圈圈拧紧，流水只剩一丝乃至于彻底断掉</li><li>心想事成或许是另一种人生悲哀，因为得到了也未见得是自己想要的</li><li>过分理性自律，永远无法纵情投入任何日常场景</li><li>别这样。我们都还只是年轻人。别放松，世界没那么豪无指望。虽然不那么尽如人意，也别太早看到头。一切都会有转机，相信自己，你可以的。——心理医生安全的职业性安慰</li><li>已是深秋了，夜风冰凉。他的话被大风撕碎了飘散一空，挺入耳的却句句刺心。</li><li>错误结束，只为了另一个错误重新开始。风后面是风。 谁又不是靠前途活着的。如果迢迢前路，也不过是随时可能变质的爱，朝九晚五的工作，婚姻，房子，一两个跑来跑去的小孩</li><li>永远是这样，风后面是风，天空上面是天空，道路前面还是道路。——海子的诗</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/02/28/books/2019-2-28/"/>
+      <url>/2019/02/28/books/2019-2-28/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>每个月至少读两本书的flag，在持续了大半年后。终于第一次嗝屁了。</p></blockquote><hr><p>读书打卡。。。这个月。。。没读任何书😷 新书到货👻 去年剩下的第一日和罗生门还没看完😷 肯定是因为滑雪[捂脸]雪季过了，一切要恢复正常了😷 (平均一个月两本肯定有，所以flag不算倒得太厉害吧|･ω･｀)</p><div class="fj-gallery"><p><img src="/./img/books/new-book.jpeg" alt="新书到货"><br><img src="/./img/books/sister-1.jpeg" alt="小姐姐"><br><img src="/./img/books/sister-2.jpeg" alt="小姐姐"><br><img src="/./img/books/sister-3.jpeg" alt="小姐姐"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2019/02/03/books/2019-2-3/"/>
+      <url>/2019/02/03/books/2019-2-3/</url>
+      
+        <content type="html"><![CDATA[<p>上个月忘了打卡了。。。。整天沉迷滑雪，想不起来读书[捂脸][捂脸]</p><blockquote><p>上个月看完了别人推荐的悟空传。觉得就是一小说。YY的废话， 没必要看，不推荐</p></blockquote><ul><li>人间失格<ul><li>喜欢的一本，但不推荐的一本书，就不报书名了，如此真实，没体验过绝对写不出这种感觉。</li><li>为何最近看的书作者全都英年自杀了[哈欠][哈欠]</li><li>这个人是个猫吧，第十次自杀终于成功了</li></ul></li><li>草间居游<ul><li>蛮有意思的。</li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/books/tai-zai-zhi.jpeg" alt="太宰治"></p>          </div><h1 id="人间失格"><a href="#人间失格" class="headerlink" title="人间失格"></a>人间失格</h1><p>胆小鬼，甚至会惧怕幸福，碰到棉花也会受伤。有时也会被幸福所伤。</p><p>世上所有人的说法，总是显得转弯抹角，含糊不清，其中有一种试图逃避责任似的微妙性和复杂性。对于他们那种近于徒劳无益的防范心理和无数的小小计谋，我总是感到困惑不已，最后只得听之任之，随他而去。要么我以滑稽的玩笑来敷衍塞责，要么我用无言的首肯来得过且过，总之我采取的是一种败北者的消极态度。</p><p>我总是被一种空荡荡的说感所裹挟，恍若整个胸膛快要打开一个窟窿。</p><p>在行善时，必须随时心存歉意，因为没有什么比行善更刺伤人的了。</p><p>我总喜欢开玩笑，这大概是因为内心的烦恼太多，不得不强装出表面的快乐吧！不单在家里是如此，就连与他人接触时，不管心里多么痛苦，身体多么疲惫，也会尽力营造出一种愉快的氛围。而每当与人分手后，我早已累得步履蹒跚。在悲伤抑郁的时候，我反倒会竭力去创作一些轻松愉快的故事。</p><p>更何况对于争论，我历来就像对待斗殴一样厌恶无比。</p><p>人活在这世上，真是件不容易的事，到处都有枷锁来束缚住你，哪怕是稍微动一下，也会冒出血来。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2018/12/30/books/2018-12-30/"/>
+      <url>/2018/12/30/books/2018-12-30/</url>
+      
+        <content type="html"><![CDATA[<p>18年最后一次打卡，这个月开的书很多，看完的倒没几个，这个月有点滑雪哈哈</p><ul><li>审判上帝<ul><li>这个广告真不戳</li></ul></li><li>first love,last rites<ul><li>这本书可真变态(▼皿▼#)作者不亏叫恐怖伊恩。不过还挺好看，难道说我也是个变态？</li></ul></li><li>今日店休<ul><li>还不错，书还是要读的</li></ul></li><li>方向<ul><li>这本没看太明白，晕乎乎的。。</li></ul></li><li>罗生门</li><li>第一日</li><li>悟空传<ul><li>只看了一半，还没看完，暂不评价</li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/books/god-is-a-girl.jpeg" alt="God is a girl"></p>          </div><h1 id="第一日"><a href="#第一日" class="headerlink" title="第一日"></a>第一日</h1><p>人永远也摆脱不了童年的回忆。他们就像鬼魂一样，等到你成年以后，时不时跳出来纠缠你。</p><p>回忆既懒惰又自欺欺人，留下的都是最好的或者最坏的经历，印象最强烈的景象，被抹去的则是日常生活中的点点滴滴。</p><p>人生的某些日子里，总会有一些微不足道的小事让你感到异常幸福，把你的生活照亮。</p><p>总有一些日子看似平淡无奇，却能让我们回味良久，即便当时我们自己可能并没有意识到。</p><p>人生总有那么一些日子，发生的看似都是一些微不足道的小事，却已在你的记忆深处留下了波澜。而在那些孤独的时刻，你将会久久地，永远地回味。</p><p>在你的生命中，是否也有这样的时刻，经历了幸福，就不再有他求？如果你现在只会谈起以前发生的事，追忆过去的时光，而且还试图用笑声来掩饰自己的怀旧和忧伤，这是否代表着你正在垂垂老去？</p><p>我一直觉得很奇妙的是，这个世界上总有一些看起无关紧要的小事，他们凑在一起就能决定我们人生的命运。当拼图一块块组合起来的时候，谁也无法预见，这样的进程最终将使我们的生活发生怎样天翻地覆的变化。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>男人的温柔</title>
+      <link href="/2018/12/06/books/gentle/"/>
+      <url>/2018/12/06/books/gentle/</url>
+      
+        <content type="html"><![CDATA[<p>男人的温柔从不是体贴入微善解人意，对美女不分单身婚恋皆行谄媚之色的是“暖男”，对弱者不分男女老少皆行举手之劳的是绅士。男人的温柔是实力，是自恋到了一定程度，对众生都心怀爱怜</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+            <tag> tattle </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2018/11/29/books/2018-11-29/"/>
+      <url>/2018/11/29/books/2018-11-29/</url>
+      
+        <content type="html"><![CDATA[<p>月底打卡，排名依照好看顺序_(:з」∠)_</p><hr><ul><li>岛上书店</li><li>番茄爱上西红柿</li><li>第七日<ul><li>人死之后的头七</li></ul></li><li>在这世界的角落</li><li>窝在角落很安心</li></ul><h2 id="岛上书店-the-storied-life-of-A-J-FIKRY"><a href="#岛上书店-the-storied-life-of-A-J-FIKRY" class="headerlink" title="岛上书店 the-storied-life-of-A.J.FIKRY"></a>岛上书店 the-storied-life-of-A.J.FIKRY</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">独自生活的难处，在于不管弄出什么样的烂摊子，都不得不自己清理。</span><br><span class="line">不，独自生活的真正难处在于没人在乎你是否心烦意乱。没人在乎为什么一个三十九岁的老男人会像一个蹒跚学步的小孩子那样，把一盘咖喱肉扔到房间那头。</span><br></pre></td></tr></table></figure><p>没有谁是一座孤岛，每本书都是一个世界。</p><p>他认为该有一个解释。如果第一幕中出现了一把枪，那把枪最好在第三幕中开火。</p><p>这其中最令人恼火的是，一旦一个人在乎一件事，就发现自己不得不开始在乎一切事。</p><p>生活中每一桩糟糕事，几乎都是时机不当的结果，每件好事，都是时机恰到好处的结果。</p><p>没有人会漫无目的的旅行，那些迷路者是希望迷路。</p><p>好的婚姻，至少有一部分是阴谋。</p><p>因为从心底里害怕自己不值得被爱，我们独来独往。然而就是因为独来独往，才让我们以为自己不值得被爱。有一天，你不知道是什么时候，你会驱车上路。有一天，你不知道是什么时候，你会遇到他（她）。你会被爱，因为你今生第一次真正不再孤单。你会选择不再孤单下去。</p><p>要是有谁觉得你在一屋子人中是独一无二的，就选那个人吧。</p><p>一个人无法成为孤单。</p><p>掌握了怎样写短篇小说，你就掌握了整个世界。</p><p>得了癌症，意思就是还能活三集电视剧或者两年那么久</p><h1 id="番茄爱上西红柿"><a href="#番茄爱上西红柿" class="headerlink" title="番茄爱上西红柿"></a>番茄爱上西红柿</h1><p>我们终于长大到足以去守护我们想要的东西，可惜，那个东西不见了。你只能站在它丢的那个地方说，对不起，我回来晚了。</p><p>长大后，才知道那是怦然心动，知道无关爱情，却守护了好多年。那时候叫青春，现在叫过往。</p><p>我们太把爱情当回事儿，以至于，我们开始害怕孤独。</p><p>喜欢是开在心里的蒲公英，光阴是一场没有目的地的风，风一起，连根拔起，风一停，旧事不提。</p><p>喜欢是情绪，而爱是一种能力。</p><p>我们都像一只没有写邮寄地址的包裹，等着一个地址给我们名分，偏偏那个地址叫做永无乡。我们拼尽全力想要一个答案，最后不过一句，查无此人。</p><p>犹记得冬天的风，它没有吹醒正在冬眠的我，就变成了二月的剪刀，我摊开手是包袱，剪刀赢了包袱，我输的一塌糊涂。</p><p>这不过是你人生里无数次的坎里最微不足道的一个，等你下一次遇见一个姑娘，又会火力全开，嘴上说的不会再爱，但是身体很诚实。你无数次地收起触角怕被伤害，但也会无数次地摇尾巴告诉对方你有多喜欢她。爱，本来就是一件不知死活的事儿。</p><p>张爱玲说，那爱情卑微能低到尘埃里开出花。我见过那朵花开，昙花一现，却闪耀了我整个一生。</p><p>有些喜欢比爱更舒服，再遇见，酒满上，你先说。</p><p>那个时候的感觉不叫爱情，是喜欢，是气场一样的两朵花开，是风来了一起被吹跑的两朵云，两个人很聊得来，没法先张口说爱的那种互生喜欢。</p><p>说爱你不过是耳边的一阵风，最多也就暖和那么一下，还比不过手捧的一碗热稀饭更带感。</p><p>充分切必要，有且仅有。</p><p>记住一个人的好，是不足以经营一场婚姻的，反而，吵过一次架才能看清一个人的人品。</p><p>从此以后，星星不眨眼，我黯然无光，只陪月亮说话。往后的日子，知道风会说话，树会说话，而我不知道再遇见还能跟你说点啥。</p><p>往前走，条条大路甩开腮帮子吃，回头看，只有剩饭。</p><p>人生有很多很多的分水岭，你永远不知道哪一个岭，就隔断了所有的念想。</p><h1 id="第七日"><a href="#第七日" class="headerlink" title="第七日"></a>第七日</h1><p>他们的闲言碎语对于她只是无需打伞的稀疏雨点。</p><p>我在情感上的愚钝就像是门窗紧闭的屋子，虽然爱情的脚步在屋前走过来又走过去，我也听到了，可是我觉得那是路过的脚步，那是走向别人的脚步。直到有一天，这个脚步停留在这里，然后门铃响了。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A perfect life，is a perfect lie.</title>
+      <link href="/2018/11/26/books/a-perfect-life/"/>
+      <url>/2018/11/26/books/a-perfect-life/</url>
+      
+        <content type="html"><![CDATA[<p>完美生活，即完美谎言。</p><p>起初看到这句话时，我并不认同。甚至持反对意见，这句话将人间真善美置于何地，全都是虚伪和假面，人生岂不只是在演戏。</p><p>后来，发现自己太过于片面。</p><p>有些事，真善美并不能站得住脚。生活总是要继续的，有些事，就像中彩票般降临。推不得，抹不去，唯有承受。听起来，生活貌似是难以避免的凄凄惨惨戚戚呢。</p><p>这种噩梦，如若可通过，谎言般的骗局，遮盖生活中的丑陋。你又将会怎么选择呢？</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲言碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tattle </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>人生无大事</title>
+      <link href="/2018/11/25/books/matter/"/>
+      <url>/2018/11/25/books/matter/</url>
+      
+        <content type="html"><![CDATA[<p>人生总有一些日子看似平淡无奇，却能让我们回味良久，即便当时我们自己可能并没有意识到。总有那么一些日子，发生的看似都是一些微不足道的小事，却已在你的记忆深处留下了波澜。而在那些孤独的时刻，你将会久久地，永远的回味。</p><p>这个世界上总有一些看起无关紧要的小事，他们凑在一起就能决定我们人生的命运。当拼图一块块组合起来的时候，谁也无法预见，这样的进程最终将使我们的生活发生怎样天翻地覆的变化。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+            <tag> daily </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2018/10/28/books/2018-10-28/"/>
+      <url>/2018/10/28/books/2018-10-28/</url>
+      
+        <content type="html"><![CDATA[<p>距离月底还有三天，应该看不完下一本书了。嗯打卡，介是这个月读完的书[嘿哈]好评顺序从左到右依次降低</p><ul><li>画的秘密</li><li>一个叫欧维的男人决定去死</li><li>窗边的小豆豆<ul><li>看了嗝嗝老师，想起了小豆豆的老师小林宗作，又想到了学生时代闯的祸。在此感谢天线宝宝的照顾(❁´ω&#96;❁)muaヽ(<em>´з｀</em>)ﾉ</li></ul></li><li>我可以咬一口吗</li><li>你今天真好看</li><li>所以一切都是童年的错吗</li><li>黄金时代</li><li>no wifi</li><li>心的重建</li></ul><div class="fj-gallery"><p><img src="/./img/books/punch-1.jpeg" alt="打卡"></p>          </div><h1 id="心的重建–you-can-heal-your-heart"><a href="#心的重建–you-can-heal-your-heart" class="headerlink" title="心的重建–you can heal your heart"></a>心的重建–you can heal your heart</h1><h2 id="Start-tasting"><a href="#Start-tasting" class="headerlink" title="Start tasting"></a>Start tasting</h2><p>刚开始看这本书，就觉得这本书对于目前的自己来说，好像并没有什么太大的意思，只是一本鸡汤书而已。本着开卷的原则，会尽可能去读完它。</p><p>再来说说其中的这样引起离婚的一句话::</p><pre><code>只是在我还未了解到生命有多长，有多少事要去做时，我就给出了一辈子的承诺。</code></pre><p>想想也是啊，人生二三十岁其实才刚刚在社会泥潭中蹒跚前行。思想和观念(三观)依然有可能是会发生巨大的改变，更何况心智成熟的旅途要求我们终其一生都要打破和重塑自我(见《the road less traveled》)。aha，爱情这玩意，还是扑朔迷离啊，略略略。也许我们本来就应该不计后果，或者说，痛苦和幸福是相互依存，不可能独立存在的，不要妄求爱情的果实美味，果实只是用来填饱肚子的。</p><p>或许，现在我的有些悲观一些吧。</p><h2 id="book"><a href="#book" class="headerlink" title="book"></a>book</h2><p>接下来说说书中的内容吧。库伯勒-罗斯提出的伤痛五阶段：</p><ul><li>否认</li><li>生气</li><li>挣扎</li><li>抑郁</li><li>接受</li></ul><h2 id="trod-again"><a href="#trod-again" class="headerlink" title="trod again"></a>trod again</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">问一些未来可能会发生也可能不会发生的问题是没有意义的，因为未来的幸福根本不存在。</span><br><span class="line">活在当下，活在现实。</span><br><span class="line">如果我们的想法集中在别人身上而不是我们自己身上，那么我们永远不会找到幸福。</span><br></pre></td></tr></table></figure><p>自律者，见其过而内自讼者。self-examination for whole journey.</p><h2 id="fix-my-emotion"><a href="#fix-my-emotion" class="headerlink" title="fix my emotion"></a>fix my emotion</h2><p>多多少少会让读者面对生活时，更关注自身，看得更开。</p><h2 id="against"><a href="#against" class="headerlink" title="against"></a>against</h2><p>文章中很多观点，我都比较反对。人活着的存在感来源于精神，宗教是某些人的精神信仰。为了身心更舒服，而放弃了自己坚持的宗教信仰未免也太苟且偷生了吧。人家想怎么过，哪怕过的痛苦，你有什么理由批判别人的选择。</p><p>在自责这场博弈中，没人能赢，没人能达到平静。</p><h1 id="一个叫欧维的男人决定去死"><a href="#一个叫欧维的男人决定去死" class="headerlink" title="一个叫欧维的男人决定去死"></a>一个叫欧维的男人决定去死</h1><p>对欧维来说，是即是，非即费。他是个非黑即白的男人。她是色彩，他的全部色彩。</p><p>这是一个还没过期就已经过时的世界。</p><p>肥肉晃悠悠的从胸脯一直长到膝盖，看上去就像一大桶冰淇淋融化后又冻了起来。</p><p>不管忙着生存还是死亡，我们都必须继续走下去。</p><p>因为嘈杂的闲聊会淹没他对她声音的记忆。</p><p>紧接着的沉默厚重得经得起刀劈斧凿。</p><p>爱上一个人就像搬进一座房子，一开始你会爱上新的一切，陶醉于拥有它的每一个清晨，就好像害怕会有人突然冲进房门指出这是个错误，你根本不该住得那么好。但经年累月房子的外墙开始陈旧，木板七翘八裂。你会因为它本该完美的不完美而渐渐不再那么爱它。然后你渐渐谙熟所有的破绽和瑕疵。天冷的时候，如何避免钥匙卡在锁孔里，哪块地板踩上去的时候容易弯曲，怎么打开一扇橱门又恰好可以不让它嘎吱作响。这些都是会赋予你归属感的小秘密。</p><p>悲伤是一桩奇怪的事。</p><h1 id="黄金时代"><a href="#黄金时代" class="headerlink" title="黄金时代"></a>黄金时代</h1><p>在没有月亮的静夜，星星的眼泪洒在铃子身上，就像荧光粉。我走进星星的万花筒，没有人能告诉我我在何处，没人能告诉我我是什么人，直到入睡，我心里还带着一丝迷茫。</p><p>人生是一条寂寞的路，愿你有一本有趣的书来消磨旅途。</p><h1 id="越洋情书节选"><a href="#越洋情书节选" class="headerlink" title="越洋情书节选"></a>越洋情书节选</h1><p>波伏娃</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">我渴望能见你一面</span><br><span class="line"></span><br><span class="line">但请你记得</span><br><span class="line"></span><br><span class="line">我不会开口要求见你</span><br><span class="line"></span><br><span class="line">这不是因为骄傲</span><br><span class="line"></span><br><span class="line">你知道我在你面前毫无骄傲可言</span><br><span class="line"></span><br><span class="line">而是因为</span><br><span class="line"></span><br><span class="line">唯有你也想见我的时候</span><br><span class="line"></span><br><span class="line">我们见面才有意义</span><br></pre></td></tr></table></figure><h1 id="如果没有今天，明天会不会有昨天"><a href="#如果没有今天，明天会不会有昨天" class="headerlink" title="如果没有今天，明天会不会有昨天"></a>如果没有今天，明天会不会有昨天</h1><p>据统计临终者最懊悔的五件事：<br>希望可以过自己的人生，不要那么投入工作，可以表露自己的感受，维持友谊，以及追求更多的幸福。</p><p>取得事物会让人满足，但是持有不会。<br>比如，六个月后，加薪或者中彩票的幸福感就会过去。</p><p>消费是新的宗教。</p><p>期待的快乐是最大的快乐。</p><p>我们为什么渴望幸福。成功的人生从来不是达成目的的手段，而是我们一切作为的最终目的。</p><p>轨道，疾病</p><p>让内心不能平静的，从来都不是外在的事物，而是我们对事物的看法和判断。</p><p>不要把任何可以从我们手中夺走的东西视为有价值。</p><p>我们一生都被自身的需求与爱好驱寒，满足了一个就急忙赶向下一个，人生就是一场无休止地追赶。这一个需求一旦得到满足，下一个需求就又开始酝酿。而在空窗期间，这个需求满足了，下一个需求还没出现的时候，我们会感到极度的无聊。人生仿佛一只悬吊的钟摆，在痛苦和无聊之间来回摆荡。<br>同样的，王尔德说过，人生只有两种悲剧，一种是人无法得其所欲，另一种则是他得到了。</p><p>幸福不过是痛苦的阙如。</p><p>人生是一场激烈的过山车，它囊括了过山车的一切元素，速度，刺激，嫉妒的恐惧，剧烈的欢欣，甚至还有呕吐，而一旦飞车抵达终点，就代表你得重头再搭一次。</p><p>意识到人生的荒谬性，才能找到自由，和人生的意义。</p><p>Whatever does not kill me ,make me stronger.出自初信叔本华的悲观主义，后自建乐观主义的尼采</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2018/10/15/books/hua-de-mimi/"/>
+      <url>/2018/10/15/books/hua-de-mimi/</url>
+      
+        <content type="html"><![CDATA[<ul><li>只有短短42页！！超好看！！突然发现和上个月看到的超好看的《sens》是同一个作者，真是个奇才<blockquote><p>42页的书居然卖54，当初要是知道只有42页可能就不会买了。</p></blockquote></li><li>绝对可以拍电影！！！</li></ul><div class="fj-gallery"><p><img src="/./img/books/picture-secret.jpeg" alt="画的秘密"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2018/09/28/books/2018-9-28/"/>
+      <url>/2018/09/28/books/2018-9-28/</url>
+      
+        <content type="html"><![CDATA[<p>距离上次立一年看至少24本书的flag还差一天就一个月整了。这个月看完了这些书【图一】</p><p>美滋滋，还有几本在看的。豆瓣评分还是挺靠谱的。洗个澡接着看。希望明年之前能看完图二的书【图二】 占剩下未读书目的一大半[捂脸]</p><div class="fj-gallery"><p><img src="/./img/books/first-punch.jpeg" alt="第一次打卡"><br><img src="/./img/books/first-punch-2.jpeg" alt="图二"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>天才在左，疯子在右</title>
+      <link href="/2018/09/27/books/genius-left-idot-right/"/>
+      <url>/2018/09/27/books/genius-left-idot-right/</url>
+      
+        <content type="html"><![CDATA[<p>这本书，看了，害怕，恐惧，不可深思</p><p>与精神病接触多了很有可能就也活出“自我”来了</p><p>但是我们仍应该尽可能的以不同的角度，看我们所身处的这“世界”</p><h2 id="朝生暮死"><a href="#朝生暮死" class="headerlink" title="朝生暮死"></a>朝生暮死</h2><p>有一节，叫朝生暮死，讲的是作者精神分裂有了四个人格，朝生暮死，用来解决自己精神“平衡问题”的。</p><p>每天早上一切都是新生</p><p>不管今天一天有多糟糕，今晚必死。如果有明天，必定重生。</p><p>虽然会有回忆</p><p>一切都是过去式了，就像旅行一般。过去的永远是过去的状态了</p><h2 id="角度问题"><a href="#角度问题" class="headerlink" title="角度问题"></a>角度问题</h2><p>人们，我们，大部分都被这世界骗了，人人都知道地球是圆的，人人都知道各种这样那样的“定理”，“常识”。</p><p>我们习以为常的都是别人告诉我们的，我们却深以为然。所有的那些我们笼统知道的东西，我们现在如此的深信不疑。</p><p>我们看待事物，看待问题，都是用客观“认知”去理解。</p><p>孩子的本能才得以显示出其特别之处</p><p>很难想象小时候的看法，小时候的生活方式了。就成了人们口中的长大了。</p><p>每个人都会长大，当你接触的人都丢失掉儿童本能的时候，你也会失去这个能力。</p><p>曾经有段时间，一直一直想回到过去的心态，总觉得若有所失，看来，我应该也已经被逼长大了呢。</p><p><strong>我不想长大，却不得不长大。</strong></p><h2 id="棋子"><a href="#棋子" class="headerlink" title="棋子"></a>棋子</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">我坚信所有的历史，所有的辉煌，绝对不是聪明人创造出来的，都是普通人创造出来的。而聪明人需要做的只是看清问题所在，顺应一个潮流罢了。</span><br><span class="line"></span><br><span class="line">除非，那个聪明人可以承担自己的聪明和才华。</span><br></pre></td></tr></table></figure><h2 id="谁是谁"><a href="#谁是谁" class="headerlink" title="谁是谁"></a>谁是谁</h2><p>最后一段对话，怎么都看不懂。。。。</p><h2 id="果冻世界"><a href="#果冻世界" class="headerlink" title="果冻世界"></a>果冻世界</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">精神，强大到可以改变肉体，反而受制于肉体。</span><br><span class="line"></span><br><span class="line">如果没有那种承受能力和辨析能力，最好什么宗教都不要信，否则信什么都是会出事的。</span><br></pre></td></tr></table></figure><h2 id="人生若只如初见"><a href="#人生若只如初见" class="headerlink" title="人生若只如初见"></a>人生若只如初见</h2><p>看书的时候觉得，这辈子都不要接触精神病人，以免受影响。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">面对未知没必要害怕，而是要学会尊重未知的存在。其实，那也是对自己存在的尊重。给自己一个尝试去了解，辨析的机会，也就才有思考和探索的可能。</span><br></pre></td></tr></table></figure><p>所以如果有机会接触那些不足以承担自身才华的聪明人（“精神病”“患者”），不妨通过他们的眼睛看看这世界。正如看书之前的心态一样，体验所有想到的想不到的经历：极尽生活</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+            <tag> tattle </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>睡不着</title>
+      <link href="/2018/09/26/books/unsleep/"/>
+      <url>/2018/09/26/books/unsleep/</url>
+      
+        <content type="html"><![CDATA[<p>晚安，这世界 汪！</p><div class="fj-gallery"><p><img src="/./img/books/unsleep-1.jpeg" alt="睡不着1"><br><img src="/./img/books/unsleep-2.jpeg" alt="睡不着2"><br><img src="/./img/books/unsleep-3.jpeg" alt="睡不着3"><br><img src="/./img/books/unsleep-4.jpeg" alt="睡不着4"><br><img src="/./img/books/unsleep-5.jpeg" alt="睡不着5"><br><img src="/./img/books/unsleep-6.jpeg" alt="睡不着6"><br><img src="/./img/books/unsleep-7.jpeg" alt="睡不着7"><br><img src="/./img/books/unsleep-8.jpeg" alt="睡不着8"><br><img src="/./img/books/unsleep-9.jpeg" alt="睡不着9"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>所以，一切都是童年的错吗？</title>
+      <link href="/2018/09/21/books/So/"/>
+      <url>/2018/09/21/books/So/</url>
+      
+        <content type="html"><![CDATA[<p>很不错的一本书，解答了我一个待解很久很久的疑惑。人的性格，或者说人对外的表现形式，自己可不可以有意识的改变。<br>人和人之间的关系，没有感觉到的那么简单。<br>之前总觉得完全没必要在乎别人的感受，做自己就好。别人喜欢你，关你屁事。讨厌你，又关你屁事。<br>不过，人和人相处，总要建立在互相的感受，哪怕是无关人举手投足间透露对你看法，也会互相影响。哪怕人的犁鼻器高度退化，还是有各种感知方式能起到类似的作用。<br>当然，如果不在乎建立新的人际关系，我行我素好像也不需要考虑太多吧，作为一个程序猿，我好像也没多少生人需要打交道的哈哈😂😂[捂脸][捂脸]</p><hr><p>自我坚定是一种非常重要的“为自己主张”的个人品质::</p><ul><li>对自己的权利有充分的了解。</li><li>能够自由地表达自己的感觉，想法和需求，也会尊重他人的正常需求。</li><li>能够鲜明的表达反对，也能够承认错误并道歉。</li><li>能够自如的开始，扭转和结束对话。</li><li>无论是否正在与人争吵，都愿意聆听别人的想法，并且做出适当回应。</li><li>认为自己和别人处在平等的地位，可以发起并维持和他人的良好关系。</li><li>在必要的时候，能够对不公正的，没有意义的规则表达质疑。</li><li>能够很好的控制和管理情绪，但并不是抑制情绪。</li></ul><p>好的事情总会到来。而当它来晚时，也不失为一种惊喜。——《托斯卡纳艳阳下》</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+            <tag> tattle </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>纳兰词集</title>
+      <link href="/2018/09/06/books/NaLanRongRuo-%E7%BA%B3%E5%85%B0%E8%AF%8D%E9%9B%86/"/>
+      <url>/2018/09/06/books/NaLanRongRuo-%E7%BA%B3%E5%85%B0%E8%AF%8D%E9%9B%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="梦江南"><a href="#梦江南" class="headerlink" title="梦江南"></a>梦江南</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">昏鸦尽，小立恨因谁？急雪乍翻香阁絮，轻风吹到胆瓶梅，心字已成灰。</span><br><span class="line"></span><br><span class="line">昏鸦：指黄昏时分的鸦群。</span><br><span class="line">小立：稍稍站立。</span><br><span class="line">胆瓶：瓶颈细长，而瓶肚扩大的花瓶。</span><br></pre></td></tr></table></figure><h3 id="译文"><a href="#译文" class="headerlink" title="译文"></a>译文</h3><p>黄昏的鸦群已经飞远，你为何还独自站在那里，又是因何事而伤感呢？柳絮像急雪一样翻飞着落入香阁，晚风轻轻地吹拂着花瓶里盛开着的梅花。再看那心字香，早已悄然成灰。</p><h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>这首词是写在纳兰性德的表妹谢氏被选到宫里之后。作者与表妹谢氏一块长大，从小青梅竹马，两小无猜，虽然没有挑明爱情关系，但纳兰性德深深地爱着谢氏，所以在她走入深宫之后，才会痛苦得无以复加，为此写下这首词。</p><p>此词以女子口吻写的闺情词。是作女子口吻，写闺情闺怨。一个少女，在寒鸦归巢的黄昏，独立在窗边思念心上人。柳絮像急促的雪花般飘落到香阁里，黄昏的轻风吹拂着瓶中的梅花。不觉间心字香已经烧完，化成了灰烬。短短数语，一个俏丽的闺中少女思念情郎的失落形象已经跃然浮现眼前。</p><p>“心字”一词指的是古时的心字香，是以香末索篆成心字形，熏香的一种。此处纳兰暗喻少女久盼情郎不至，心灰意冷的感受。</p><h1 id="赤枣子"><a href="#赤枣子" class="headerlink" title="赤枣子"></a>赤枣子</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">惊晓漏，护春眠。格外娇慵只自怜。</span><br><span class="line">寄语酿花风日好，绿窗来与上琴弦。</span><br><span class="line"></span><br><span class="line">惊晓漏：意谓清晓，漏声将人惊醒，但却依然贪睡。</span><br><span class="line">娇慵：指刚刚睡醒惺忪妩媚的样子。</span><br><span class="line">酿花：催花开放。</span><br><span class="line">上琴弦：代指弹琴。</span><br></pre></td></tr></table></figure><h3 id="译文-1"><a href="#译文-1" class="headerlink" title="译文"></a>译文</h3><p>清晨，滴漏声将春睡的佳人惊醒，但佳人却依然贪睡。娇慵倦怠又暗生自怜。寄语给那催促鲜花盛开的和风丽日，到我的绿窗边上来与我一起拨弄琴弦。</p><h3 id="背景-1"><a href="#背景-1" class="headerlink" title="背景"></a>背景</h3><p>据说，这首词是写在纳兰性德的表妹雪梅被选到宫里之后。他与表妹雪梅一块长大，从小青梅竹马，两小无猜，虽然没有挑明爱情关系，但纳兰深深地爱着雪梅这是事实。他与表妹曾经一块去读私塾，一块儿玩耍，一块儿对作赋。如今，表妹走了，走进了皇宫，当了妃子。一场早期的恋爱就这样成了泡影。表妹走后，纳兰曾经装扮成僧人进宫去见过表妹一面。匆匆一面，而且还隔着宫廷里的帏幔。他经常一个人在黄昏时小立，望着宫廷的方向凝神，初恋是彻底没有希望了，这辈子也别再想与表妹雪梅见一面了。</p><h1 id="忆王孙"><a href="#忆王孙" class="headerlink" title="忆王孙"></a>忆王孙</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">西风一夜剪芭蕉，倦眼经秋耐寂寥？强把心情付浊醪。读离骚。愁似湘江日夜潮。</span><br><span class="line"></span><br><span class="line">浊醪（láo）：即浊酒。</span><br><span class="line">芳菲：代指花朵。</span><br></pre></td></tr></table></figure><h3 id="译文-2"><a href="#译文-2" class="headerlink" title="译文"></a>译文</h3><p>昨天晚上刮了一夜西风，今天起来一看，芭蕉都凋残了。在这萧瑟的清秋，满眼的芳菲消歇，怎能不备感寂寞寥落？一壶浊酒固然可以勉强浇愁、暂时解忧。然而这愁情似江潮般滚滚而来且绵绵不绝，酒又岂能解怀，唯有用读《离骚》来抒发愁思了。</p><h3 id="背景-2"><a href="#背景-2" class="headerlink" title="背景"></a>背景</h3><p>清朝三藩之乱（1673—1681年）期间，一向文质彬彬的纳兰性德居然请求到前线去冲锋陷阵，立志报国，结果是一而再再而三去上疏，都被康熙帝驳了回来。当时，朝廷和吴三桂的兵马正处于对峙中，西线战场上，清军处于守势。康熙舍不得将纳兰送到前线送死，有更重要的任命。纳兰这边，反应是失望。据考证，这首《忆王孙》就是纳兰上疏不成后写的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>外婆的道歉信</title>
+      <link href="/2018/09/05/books/to-the-monkey-and-the-frog-%E5%A4%96%E5%A9%86%E7%9A%84%E9%81%93%E6%AD%89%E4%BF%A1/"/>
+      <url>/2018/09/05/books/to-the-monkey-and-the-frog-%E5%A4%96%E5%A9%86%E7%9A%84%E9%81%93%E6%AD%89%E4%BF%A1/</url>
+      
+        <content type="html"><![CDATA[<ul><li>每个七岁的小孩都应该拥有一位超级英雄。<ul><li>“我知道你今晚做的一切，都是为了让我忘记白天在学校发生的事。”</li></ul></li><li>不是所有的怪物一开始都是怪物。有些因为悲伤才变成了怪物。<ul><li>威力巨大的海浪，打得满世界都是玻璃碎片。</li><li>喝红酒的母亲，失去了两个男孩和男孩父亲的母亲。</li></ul></li><li>超乎寻常的悲剧造就非同一般的英雄</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书打卡</title>
+      <link href="/2018/09/02/books/%E2%86%92/"/>
+      <url>/2018/09/02/books/%E2%86%92/</url>
+      
+        <content type="html"><![CDATA[<ul><li>-&gt;<ul><li>不著一字，尽得风流</li><li>刚看完的时候一脸懵逼， 看了别人的书评，真心佩服。<a href="https://book.douban.com/review/8540349/">真正的英雄主义</a></li></ul></li></ul><p>加缪说：“人是唯一拒绝其现状的生物。”如果从宏观角度以此审视人类的艺术，似乎可以这样理解：艺术就是这种拒绝的衍生物。虽然在形式上艺术有着庞杂的类别，无论是小说、音乐、雕塑、绘画还是电影，究其本质，无一不在映射着一种试图对自身现状的剥离，而受众追求的则是一种通感和共鸣，在那一刻，忘记“我”为何物，实现完全精神化的升华。这也决定着不管表现形式如何，顶尖的艺术品一定拥有着共通的精华，仿佛人类思想的极致往往总是指向同一个地方。</p><p>如此，也许可以理解马克-安托万•马修何以特立独行地将漫画这种艺术形式“逼迫”至极限。马克自然可以代表欧洲漫画界的最高成就，而我们却仍然处在逐渐熟悉他的过程，记得去年马克的《画的秘密》在圈子里异常火爆，人们不由发出迟来的感慨：原来漫画还可以这样画。马克从未将自己视作哲学家，但他的作品显然将漫画的传统定义进行了深刻的颠覆，马克的漫画更像是一种符号学意义上的载体，承载着在我们看来似乎不应该由漫画承载的主题，今年引进的《方向》更是如此。</p><p>《方向》延续了马克一贯的风格，但这次显然要更加坚决和彻底。马克彻底抛开了文字的障碍，全书没有出现一个字，以至原作标题也只是一个“→”的符号。马克也站在了绘画的边缘，这是一本由各种不同大小的、二维的、三维的箭头组成的书，一切都是由箭头搭建，除了主人公外再无其他任何人物，甚至主人公也被完全虚化，成为看不清面貌，大脑和身体充满箭头的某种“综合体”。在这样的情况下，《方向》的整体故事是被高度抽象化的，马克摒弃了故事的传统核心（即冲突），主人公只是随着各种箭头从一页跋涉至另一页，仿佛陷入一种无尽的符号化过程之中。</p><p>但这并不意味着《方向》仅剩一堆无法破译的符号，成为了一本完全版画式的漫画。恰恰相反，马克让《方向》走向了另一个极致，他用隐喻化和象征性的手法将这本貌似故事极简的漫画，升华为一种抒发深刻思索的哲思类作品。主人公是一位穿风衣、戴礼帽、衬衣最上面的扣子依然要扣紧的中年男子，马克对其的设定是完全的去个性化的，之所以连容貌也不进行刻画，就是要塑造这样一个与大众完全“融合”的符号，这个人物代表着最普通的上班族，甚至就是你我的影子。从全书最初一片漆黑中那个小小的箭头状的光点开始，这种隐喻和象征就同步开始了，那个小小的箭头状的光点原来是一堵门上的钥匙孔，主人公从钥匙孔向外望去是一片虚无。这种门内的黑暗完全可以看做是人在出生前所处的母体子宫，外面的世界是未知和光明。这里有一个小细节需要注意，就是当主人公从门内走出的时候，门自动关上了，主人公一惊，但显然没有回身的意思，全书正式开始。这是符合我们这种象征推测的细节，因为人来到这个世界，就无法回到原处了。</p><p>卡夫卡在《城堡》中设置了同样一个符号化的主人公——K，这是一个连名字都只是字母代号的人物，也同样讲述了一个极为简单的故事，K应聘来城堡当土地测量员，他经过长途跋涉，穿过许多雪路，终于在半夜抵达城堡管辖下的一个穷村落，却发现不管他用什么办法，城堡虽近在咫尺，但就是进不去，最终，K竟然至死也未能进入城堡。某种意义上，《方向》甚至可以说像是漫画版的《城堡》，主人公从那扇门走出之后，便开始了类似侦探一般的找寻之旅，因为那些指引他走出下一步的箭头变得越来越难以辨认。书中有一个很典型的桥段，主人公走到一堵无尽延伸的墙面前，在找到貌似一扇门的时候却仍然没有指示的箭头，这一刻，马克将主人公完全刻画成为了一个经验老道的侦探，最终主人公在门的横梁顶部找到指示的箭头，爬到墙上顺势走了下去……</p><p>然而，也正是从这个桥段开始，《方向》的主题渐渐浮出水面。主人公如此“漂亮”地找到指引前进的线索，完美地按照箭头指示的方向一路走下去，他顺着一个渐渐平缓的斜坡走下了这堵仿佛没有尽头的墙，来到了地面。在此处，马克运用了艺术的机巧，全书一下子转换为“上帝视角”，当人们从高空俯视的时候，才发现整堵墙其实组成了一个巨大的箭头轮廓，而主人公费尽心机和力气沿着墙上的箭头指示走向的，却是那个巨大箭头指示方向的反面。这是马克在全书中第一次完全的“上帝视角”，此前主人公曾在路途中被一个硬角绊倒，挖掘出一个巨大的物体，当时马克也转换了视角，使得人们看到这个物体实际上也是一个巨大的箭头，但主人公显然看不到全貌，于是在这个物体上找到了新的“线索”继续前进。但当时的这种“上帝视角”的转换还显得具有某种隐藏性，而这次，人们在完全的高空如上帝般俯视主人公与巨大箭头的“背道而驰”时，那种感受是极为震撼的。</p><p>这种震撼也是《方向》给人最突出的艺术感受，更确切地说是一种强烈的代入感后的共鸣。当主人公终于找到一本仿佛可以指引迷津的书时，这种代入感达到了巅峰，马克当时完全是按照第一视角引入了那个情节，更妙的是《方向》甚至加入一大张折叠的画页，读者是可以将其完全展开的，仿佛是我们找到了这样一本书，那一刻主人公和我们的界限被模糊了，正是这种代入感让前面提到的那种震撼进一步爆发，仿佛一种裂变，一直延续到全书结尾。人们不由想到自己，想到自己的生活，尘世中的每个人何尝不是像书中主人公一样，终其一生都在寻找指引方向的线索。当人们借由《方向》的“上帝视角”审视主人公的苦苦找寻和自以为是的判断，才发现其实“方向”只是我们的一厢情愿，一种对“意义”本身的荒诞感油然而生。那些貌似明确的箭头在全书的后半段也渐渐显露“真容”，那是每一颗组成荒漠的沙粒，那是每一座组成水泥森林的高台，那是干涸大地的裂纹，那是天空中偶尔现身的飞鸟，那是无数凡人终其一生的墓碑……</p><p>马克在书中用箭头组成一组密码，破译出来之后是这样一句法文：“荒诞只有在我们接受它的时候才有意义”。如果细细品味书中的设置，这更带着一种佛家“妙有”的味道，“有”本身只是“名相”，并非“实相”，其本身的存在是具有这种“荒诞性”的，不过是我们自心的映照而已，然而我们却找到各种理由去不断“验证”这种“荒诞”，甚至不惜用超自然的“神迹”进行“解释”。这一点在《方向》中尤为明显，每次主人公陷入找不到指引箭头的困境时，一些突然出现的现象仿佛“神迹”般出现，比如突然掉落的一块箭头指示牌，亦或巨石崩裂后内里出现的闪着光芒的箭头指针……人们在生活中又何尝不是这样，当适合二十来岁年纪的鸡汤开始让我们厌烦，我们会选择所谓“干货”，就像书中主人公侦探一般地找寻，而以“顺其自然”为核心的披着佛道外衣的另类肉汤则充斥着更大年龄段的朋友圈……这与《方向》的找寻过程是一致的，只是不管是马克的“荒诞”，还是佛家的“妙有”都对此是持否定态度的，那不是“天意”，只是我们的“我执”。</p><p>这样说来，《方向》的思想内核貌似是指向荒诞主义哲学，甚至虚无主义，至少应该是存在主义的题中之意。而《方向》的装饰封脊条的设计也很耐人寻味，正面是马克前面说的那句“荒诞只有在我们接受它的时候才有意义”，而背面则是加缪的名句“荒诞的意义就在于我们不赞同它”。这却是一个小小的陷阱，人们容易从字面意义上认为马克是在与加缪“针锋相对”，而事实却是这是深受存在主义哲学影响的马克向存在主义大师加缪最好的致敬。马克实际上在补充着，或者说诠释着加缪的那句话，如果说马克的话指出的是一种“妙有”，那么，加缪的话则直接指出了世界“真空”的实质。</p><p>这就涉及到《方向》在“荒诞”背后的意义延伸，就像学佛只知“妙有”或者“真空”都是不圆满的，所以才需要体（佛性）、相（色相）、用（妙用）三者合一。但如果将《方向》的这种“妙有”的意义直接指向加缪所认为的“真空”，显然是过于简单的，而这正是世人对荒诞主义哲学、虚无主义特别是存在主义最容易产生的误解。也正是在这个意义上，加缪一再否认自己是存在主义作家，加缪显然不满人们对存在主义虚无和荒诞“名相”的过分狂热。加缪关注的并不是荒诞的发现，而是其后果，荒诞不过是一个“已知数”，加缪从中推论出的后果是反抗、自由和激情。在加缪看来，意识到荒诞仅仅是一个初期阶段，有着这种“觉悟”的人应该为自己制定一条行为准则：义无反顾地生活，穷尽现有的一切，知道自己的局限而不为永恒徒费心力。因此，发现了荒诞，只能说明人的清醒，只有进行反抗，才能说明人真正地进入了生活。</p><p>人类的思想在极高处必将交汇融合。佛家“妙有真空”也并非要教化出一群虚无主义者，而是要以此为机缘发觉人们自心具足的佛性，用俗世的说法就是学会智慧地生活。从前憨山大师入定到兜率内院问弥勒菩萨：“什么是识？什么是智？”弥勒菩萨说：“分别是识，无分别是智；依识染，依智净；染有生死，净无诸佛”，六祖慧能大师更直接，劈柴担水做饭洗衣皆是修行。我们不认同充满着我执的“有”，但也莫要一口咬定一切就是荒诞的“空”，正如加缪的“荒诞的意义就在于我们不赞同它”并非完全的拒绝，因为真正理解加缪的人会补充上一句“荒诞只有在我们接受它的时候才有意义”，东方的“妙有真空”在这个节点真正与西哲的存在主义实现了某种交融。</p><p>也许很多人会提出异议，毕竟布鲁塞尔的专题画展介绍辞中是这样介绍《方向》的：“当代西西弗斯在荒诞的迷宫里随着存在中的偶然不断游走”。人们也自然会举出加缪的《西西弗斯神话》作为例证，认为《方向》绝非指向了一个积极光明的主题，甚至书中有一处还直接出现了一个山脚下由线团组成的球体，让人不能不产生“西西弗斯和巨石”的悲剧（西西弗斯被诸神判处把一块巨石不断推上山顶，而石头因其重量一次又一次滚落）。然而，在加缪的笔下，西西弗斯其实是存在主义的英雄：西西弗斯对自己荒诞的处境有着准确认识，但他认为没有蔑视征服不了的命运，无能为力却要叛逆反抗，他对荒诞的命运说“是”，但他对荒诞的精神状态说“不”，于是他孜孜以求，努力不懈，这就是他的反抗方式。加缪不止一次提到，幸福和荒诞是同一方土地的两个儿子，不可分开，没有不带阴影的阳光，必须认识黑夜。西西弗斯因为对荒诞的洞悉和反抗，所以他活得清醒，活得充实，加缪也曾说应当想象西西弗斯是幸福的。</p><p>《方向》的最后，主人公在不断的无用找寻中已然老去，最终他发现自己的影子竟然也是一个箭头，他颓然坐在地上，最终垂下了衰老的头颅，就像死去一般，仿佛一个被命运戏耍够了的小丑临终时对自己一生的叹息，全书在此颇有些电影尾声的味道，马克恢复“上帝视角”，人们像一架舍主人公而去的直升机在不断爬升，越飞越高……人们由此对《方向》主题的最终走向进行悲观的判断貌似是完全符合逻辑的，马克实在大才，这种切肤的代入感和对“意义”本身的否定给人的印象确实过于深刻。然而，这里有一个容易忽视的小细节必须指出，这个细节虽然微小，却是大才马克的“鬼才之笔”，让笔者不得不佩服马克的才气尤其是他的胆量和超脱。因为，这个小细节将直接决定着全书会指向两个截然相反的结局，马克仿佛一个富有而随意的赌徒，就这样洒脱地将一切都压在了这个小细节上。</p><p>如果我们仔细去观察那个坐在地上、渐渐变小的主人公，我们会发现这个具有决定意义的细节：主人公最后是抬起头的。因为，之前主人公是一种大幅度低垂脑袋的状态，他的头垂得那样低，以至于我们能看到他的后颈完全裸露了出来，在接下来的画页中，如果其继续保持这种状态，那么在近乎九十度俯视的情况下，读者是仍然能看到主人公的后颈的。显然，主人公并未一直保持低头的状态，相反，他抬起了头，望向了自己箭头指向的前方，这才是全书的真正高潮，这才是马克创作《方向》的真实目的。如果主人公就那样充满着叹息甚至懊恼地死去，何来“荒诞只有在我们接受它的时候才有意义”一说？这与马克一直以来对加缪的推崇也是极为不符的，一个真正了解过加缪思想的人会知道面对荒诞，加缪最终给出的是“我的反抗，我的自由和我的激情。”</p><p>虽然仅仅是最后极为隐秘的一刹，但全书的主题和意义完全反转了，这是极为高明的艺术手法，更是一位真正的艺术家最终实践自身思想的大胆和洒脱。读者如果错过这个细节，也许会将整本书的意图误读，但对马克来说已经无所谓了，既然我们终究只能在自身的存在层面找回意义，那么艺术家创作的过程自然要高于文本受众的理解和评价。这实在有点儿像领悟“妙有真空”之后的一种坦然和随喜，就像书中的主人公，当他终于明白自身即是方向时，在以后的生命中，哪怕他已衰老，哪怕已经时日无多，但他最终超越了荒诞，找到了荒诞背后的另一种可能，一切都不再纠结和焦灼。</p><p>这也正是《方向》最终的意义所在，我们只是芸芸众生中的一粒微尘，每天挤在格子间或是地铁公交里，日常生活的机械性使我们终将对自己存在的价值和目的产生怀疑，继而会面对那种貌似无法排解的荒诞感。然而，我们仍有理由相信这荒诞背后的另一种可能：既然如此，何不放开一点点，何不自我一点点，不再惶恐、不再焦虑、不再愤恨、不再轻佻，我的日常就是我的生活，我的生活就是我的意义，我的意义就是我最终的方向，这是体悟“真空”之后的“妙有”，更是领悟“妙有”后对“真空”的最好解读。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>那么慢，那么美</title>
+      <link href="/2018/09/01/books/so-slow-so-beautiful/"/>
+      <url>/2018/09/01/books/so-slow-so-beautiful/</url>
+      
+        <content type="html"><![CDATA[<p><strong>立个flag，用北欧人平均读书速率（一年24本）读书</strong></p><p>拆的第一本书就这么有意思的么</p><div class="fj-gallery"><p><img src="/./img/books/first-book.jpeg" alt="flag之后的第一本书"><br><img src="/./img/books/green-hard.jpeg" alt="小绿说做人好难啊"></p>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>抄的是句子，品的是人生</title>
+      <link href="/2018/08/07/books/2018-8-29/"/>
+      <url>/2018/08/07/books/2018-8-29/</url>
+      
+        <content type="html"><![CDATA[<ul><li>像艺术家一样思考<ul><li>花费时间，花费生命做的事，都称得上艺术。<ul><li>一本序和前言占了十分之一的书</li><li>killing time is killing yourself.</li></ul></li></ul></li></ul><div class="fj-gallery"><p><img src="/./img/books/love-u-love-me.jpeg" alt="爱你就像爱自己扉页"></p>          </div><h2 id="孤独"><a href="#孤独" class="headerlink" title="孤独"></a>孤独</h2><p>8.7</p><p><strong>孤独这两个字拆开来看，有孩童，有瓜果，有走兽，有飞虫，足以撑起一个盛夏傍晚的巷口，人情味十足。稚儿擎瓜柳棚下，细犬逐蝶窄巷中。人间繁华多笑语，惟我空余两鬓风。——孩童走兽飞虫自然热闹，可那都和你无关，这就叫孤独。</strong></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">年轻时</span><br><span class="line">道理都是天书</span><br><span class="line">识得其形，却不知其意</span><br><span class="line">年迈时</span><br><span class="line">半句话刺痛泪腺</span><br><span class="line">勾起往昔，却难以回首</span><br><span class="line">当下</span><br><span class="line">前方如雾</span><br><span class="line">光劈不散</span><br><span class="line">雨吹不开</span><br><span class="line">如梦</span><br><span class="line">只盼梦醒仍携忆来生</span><br></pre></td></tr></table></figure><p>今天喜欢上一首歌：崔子格的<code>有生之年再也不见</code></p><p>todo: 添加背景音乐</p><h2 id="颜如晶"><a href="#颜如晶" class="headerlink" title="颜如晶"></a>颜如晶</h2><p>8.24</p><ul><li>人总是会变的，不变的人需要很多人的付出来保护。</li><li>如果你跟周围所有的人在一起都觉得是在将就，围绕着你的都是苍蝇，这时候你有没有怀疑自己是一坨屎？</li><li>人生遇到瓶颈时，上进心是最大的煎熬。</li><li>你以为大肠里包的都是小肠么？大肠里包的是屎。其实真正的伤害在于知道。</li></ul><h2 id="so-slow-so-beautiful"><a href="#so-slow-so-beautiful" class="headerlink" title="so slow so beautiful"></a>so slow so beautiful</h2><p>8.30</p><blockquote><p>《那么慢，那么美》我不在乎他夸北欧是真的还是假的，我愿意把他当作真的，好让自己心有向往，更积极</p></blockquote><ul><li>个人信誉之道盛行</li><li>看书之风盛行，一个人的社交<ul><li>即使不与人交往，沉浸在阅读里的时光，那是沉寂的时间之中另一段生命繁华投下的光阴。</li><li>之前特别不明白有些人为什么喜欢在咖啡店看书。咖啡店读书的意思在于，在热闹的场合干自己的事，不为交友，不为赶热闹，就为在人群中的一份存在感。</li></ul></li><li>轻物质，重思想</li><li>节俭</li><li>游刃有余，特立独行，凡事有度</li><li>工作与享受生活并驾齐驱</li><li>在香水的味道中睡去，从咖啡的香味中醒来</li><li>所有的有条不紊和慢而有序都蕴含在计划之中</li><li>冒险人生的浪漫主义情怀</li><li>素质就是有本事创造生活并超越生活的修养与能力，人品的境界和能力的基石。</li><li>一个设计师只是为了一把椅子的一个转角，而亲手触摸过上千个鹅卵石的弧度。</li><li>做人的最高境界是节制。</li><li>生活是一种极致的体验</li><li>所以，终是开卷有益。即便不与人交往，沉浸在阅读里的时光，那是沉寂的时间之中，另一段生命繁华投下的光阴。</li><li>那么多的事想去做，那么多的想法要实现。想得到，就去争取，得不到，再去修炼。</li><li>每一个人都是从孩子长大。<ul><li>你不是天生就什么都会</li><li>你不是从来都不会犯任何错误。</li></ul></li></ul><h2 id="爱你就像爱生命读后感"><a href="#爱你就像爱生命读后感" class="headerlink" title="爱你就像爱生命读后感"></a>爱你就像爱生命读后感</h2><p>8.30</p><p>刚开始看这本书觉得特无聊特没意思，因为有点强迫症，就又拿起来继续看。换个角度，若是辞藻华丽，我反而有可能更看不下去呢。慢慢的，就越来越被其真诚感染。当然，对于我这种浮躁的人来说，这个被打动的过程非常的缓慢。</p><ul><li>你要是愿意，我就永远爱你，你要不愿意，我就永远相思。</li><li>你要是喜欢了别人我会哭，但是还是喜欢你。</li><li>什么事你先别哭，先来责备我，好吗？</li><li>不一定你要爱我，但是我爱你，这是我的命运。</li><li>单单你的名字就够我爱一世的了。</li><li>你回来时我准比上次还爱你呢。</li><li>哪怕美好的一切消失，咱们先来让它存在。</li></ul><p>觉得王小波对李银河的感觉过于热烈执着，有点梦幻色彩。不知道他们之后的感情经历。可能就像他自己说的，“不管我本人多么平庸，我总觉得对你的爱很美。”</p><p>不过就这一段而言，我是很愿意去相信的，但是又控制不住的不相信。觉得这种痴心般的感情不可能会长久，可能我还是不愿意，或者说不敢相信感情。不是说爱情，是说感情。感情这个东西是断断续续的，是一个一个瞬发的过程，不是连续的。总会有各种各样的原因，减少或者加大瞬发的间隔。所以感情才存在想买把手枪打死你，结果却买回了你最爱吃的点心；说出的海誓山盟，结果却是过眼云烟，最后都变成一句“爱过”。</p><p>之前一直不喜欢在爱情中说对不起和谢谢。后来就觉得没什么了，才知道并不是只有自己才这样。很多人都是这样的呢</p><p>爱情是否应该不猜忌，不埋怨，毫无保留，哪怕厌倦，烦闷，平淡，没有新鲜感。经历了几次之后还是不明白这个问题，我的答案是什么。</p><hr><p>在一起二十年，竟从未有过沉闷厌倦的感觉。始终如一，令人赞服。</p><h2 id="绿毛水怪"><a href="#绿毛水怪" class="headerlink" title="绿毛水怪"></a>绿毛水怪</h2><p>大团的蒲公英浮在街道的河流上，吞吐着柔软的针一样的光。我们好像在池塘的水底。从一个月亮走向另一个月亮。</p><p>读后感：</p><blockquote><p>悲剧总比喜剧蚀骨，所以人们才天真的以为不如意事常八九。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Overtime Is Killing You… Slowly</title>
+      <link href="/2018/07/24/tattle/2018-7-24/"/>
+      <url>/2018/07/24/tattle/2018-7-24/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Overtime-Is-Killing-You…-Slowly"><a href="#Overtime-Is-Killing-You…-Slowly" class="headerlink" title="Overtime Is Killing You… Slowly"></a><a href="https://ilikekillnerds.com/2014/10/overtime-is-killing-you-slowly/">Overtime Is Killing You… Slowly</a></h1><p>If you work in the tech industry, more specifically as a developer (software or web) you are slowly dying from a disease commonly known as: overtime.</p><p>There is no cure for overtime other than something called common sense. It comes in many different forms, but for many including myself, it can be a hard pill to swallow when a deadline is looming or a culture of overtime is prevalent. When the company comes to expect overtime, in this economy you have two choices: deal with it and hope you do not burn out or find a new job.</p><p>Finding a new job for some can be difficult, a lot of the individual economies that make up the world economy are falling apart. Spain has an unemployment rate of around 25%, the UK around 6.5%. This leaves you with the choice of working incredibly long hours for a fixed salary with no extra benefits, which for some with families to provide for can make it even harder to deal with.</p><p>Does any of this sound familiar?</p><ul><li>But I have to stay back to finish this deadline or I will lose my job.</li><li>I want to deliver great code, so I can warrant the extra time investment.</li><li>I am new here and I want to make a good impression, be a team player and I know if the company needs to downsize because I am new, they will look to cull me first.</li><li>Work said that this will not happen very often. I am only staying back for the greater good of my team and my company, it will not happen very often.</li><li>We want to get this project completed earlier, so we have time at the end for testing and refinements before handing it over to the client or shipping,</li></ul><p>In the end you have to ask yourself: who does overtime truly benefit?</p><p>It does not benefit you or your team because it has been proven that after a certain amount of hours staring at a computer screen, you begin to lose focus and once you lose focus, your concentration levels go right down the toilet.</p><p>You are definitely not doing your employer any favours either. Dropped concentration levels mean you miss things, you make simple mistakes and could end up setting you and your teams progress back as you scramble to undo mistakes you made whilst fatigued. Resentment begins to grow in environments where work life balance becomes 90&#x2F;10.</p><p>So the answer to the question is: it benefits nobody. It is an outdated way of thinking that the more man hours you throw at a problem, the quicker it gets solved. This is akin to slavery, and like many overworked slaves in history, it takes a toll on you and you either die or become mentally ill.</p><p>Many managers seem to operate on the principle of the more hours someone puts in, the more work you get out. This is true until a certain point. It is a little bit like dipping a tea bag in a cup of hot water, after 3 to 5 minutes of steeping in the water, it will not absorb any more tea. You could leave the tea bag in for 2 hours and it would still be no stronger than someone who left theirs in for 5 minutes.</p><p>Overtime is not just limited to sitting at your work provided desk on your work provided computer, it also extends to home-life. Working from home after hours, checking emails and losing valuable time you can spend with your family is a form of overtime we all fail to realise is just as detrimental to your health and work&#x2F;life balance.</p><p>Go home, hug your wife&#x2F;husband, play with your kids, see a movie, call your parents or reach out to that high-school friend you used to be great friends with and stop letting overtime kill you. You are sick, but there is hope for you yet.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摘抄 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> books </tag>
+            
+        </tags>
       
     </entry>
     
