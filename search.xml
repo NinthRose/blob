@@ -4,6 +4,143 @@
   
     
     <entry>
+      <title>使用ctypes调用动态库</title>
+      <link href="/2022/10/11/soft/python/ctypes/"/>
+      <url>/2022/10/11/soft/python/ctypes/</url>
+      
+        <content type="html"><![CDATA[<h2 id="intro"><a href="#intro" class="headerlink" title="intro"></a>intro</h2><p>ctypes是python的一个函数库，提供和C语言兼容的数据类型，可以直接调用动态链接库中的导出函数。<br>为了使用ctypes，必须依次完成以下步骤：</p><ul><li>加载动态链接库<ul><li>cdll</li><li>windll</li><li>oledll</li></ul></li><li>将python对象转换成ctypes所能识别的参数</li><li>使用ctypes所能识别的参数调用动态链接库中的函数</li></ul><blockquote><p>仅支持简单使用，详情请参考官方文档<a href="https://docs.python.org/zh-cn/3.7/library/ctypes.html">python doc</a></p></blockquote><h2 id="基础类型"><a href="#基础类型" class="headerlink" title="基础类型"></a>基础类型</h2><table><thead><tr><th>ctypes 类型</th><th>C 类型</th><th>Python 类型</th></tr></thead><tbody><tr><td>c_bool</td><td>_Bool</td><td>bool (1)</td></tr><tr><td>c_char</td><td>char</td><td>单字符字节对象</td></tr><tr><td>c_wchar</td><td>wchar_t</td><td>单字符字符串</td></tr><tr><td>c_byte</td><td>char</td><td>整型</td></tr><tr><td>c_ubyte</td><td>unsigned char</td><td>整型</td></tr><tr><td>c_short</td><td>short</td><td>整型</td></tr><tr><td>c_ushort</td><td>unsigned short</td><td>整型</td></tr><tr><td>c_int</td><td>int</td><td>整型</td></tr><tr><td>c_uint</td><td>unsigned int</td><td>整型</td></tr><tr><td>c_long</td><td>long</td><td>整型</td></tr><tr><td>c_ulong</td><td>unsigned long</td><td>整型</td></tr><tr><td>c_longlong</td><td>__int64 或 long long</td><td>整型</td></tr><tr><td>c_ulonglong</td><td>unsigned __int64 或 unsigned long long</td><td>整型</td></tr><tr><td>c_size_t</td><td>size_t</td><td>整型</td></tr><tr><td>c_ssize_t</td><td>ssize_t 或 Py_ssize_t</td><td>整型</td></tr><tr><td>c_float</td><td>float</td><td>浮点数</td></tr><tr><td>c_double</td><td>double</td><td>浮点数</td></tr><tr><td>c_longdouble</td><td>long double</td><td>浮点数</td></tr><tr><td>c_char_p</td><td>char * (以 NUL 结尾)</td><td>字节串对象或 None</td></tr><tr><td>c_wchar_p</td><td>wchar_t * (以 NUL 结尾)</td><td>字符串或 None</td></tr><tr><td>c_void_p</td><td>void *</td><td>int 或 None</td></tr></tbody></table><h2 id="usage"><a href="#usage" class="headerlink" title="usage"></a>usage</h2><p>simple:</p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># int add(int a, int b)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> ctypes <span class="keyword">import</span> *</span><br><span class="line">demo_api = CDLL(<span class="string">&quot;lib.so&quot;</span>)</span><br><span class="line"></span><br><span class="line">demo_api.add.argtypes = [c_int, c_int]      <span class="comment"># 定义输入类型</span></span><br><span class="line">demo_api.add.restype = c_int                <span class="comment"># 定义返回类型</span></span><br><span class="line">res = demo_api.add(c_int(<span class="number">5</span>), c_int(<span class="number">6</span>))      <span class="comment"># 调用函数</span></span><br><span class="line"><span class="built_in">print</span>(res) <span class="comment"># 11</span></span><br></pre></td></tr></table></figure><hr><p>pointer demo:</p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># int create_handle(void *&amp;handle)</span></span><br><span class="line"><span class="comment"># int free_handle(void *handle, int i)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> ctypes <span class="keyword">import</span> *</span><br><span class="line">demo_api = CDLL(<span class="string">&quot;lib.so&quot;</span>)</span><br><span class="line"></span><br><span class="line">demo_api.create_handle.argtypes = [POINTER(c_void_p)]</span><br><span class="line">demo_api.create_handle.restype = c_int</span><br><span class="line">req = c_void_p()</span><br><span class="line">res = demo_api.create_handle(byref(req))</span><br><span class="line"></span><br><span class="line">demo_api.free_handle.argtypes = [c_void_p, c_int]   <span class="comment"># 多个参数</span></span><br><span class="line">demo_api.free_handle.restype = c_int</span><br><span class="line">res = demo_api.free_handle(req, <span class="number">9</span>)</span><br></pre></td></tr></table></figure><hr><p>struct demo:</p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># struct data_req</span></span><br><span class="line"><span class="comment"># &#123;</span></span><br><span class="line"><span class="comment">#     char c;</span></span><br><span class="line"><span class="comment">#     int list[256];</span></span><br><span class="line"><span class="comment">#     unsigned int i;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment"># int request(data_req *data)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> ctypes <span class="keyword">import</span> *</span><br><span class="line">demo_api = CDLL(<span class="string">&quot;lib.so&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">REQ</span>(<span class="title class_ inherited__">Structure</span>):</span><br><span class="line">    _fields_ = [</span><br><span class="line">        (<span class="string">&quot;c&quot;</span>, c_char),</span><br><span class="line">        (<span class="string">&quot;list&quot;</span>, c_int * <span class="number">256</span>),</span><br><span class="line">        (<span class="string">&quot;i&quot;</span>, c_uint),</span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line">demo_api.request.argtypes = [REQ]</span><br><span class="line">demo_api.request.restype = c_int</span><br><span class="line">req = REQ(<span class="string">&#x27;1&#x27;</span>, [<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>], <span class="number">3</span>)</span><br><span class="line">res = demo_api.request(req)</span><br></pre></td></tr></table></figure><hr><p>callback demo:</p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># struct data_req</span></span><br><span class="line"><span class="comment"># &#123;</span></span><br><span class="line"><span class="comment">#     char c;</span></span><br><span class="line"><span class="comment">#     int list[256];</span></span><br><span class="line"><span class="comment">#     unsigned int i;</span></span><br><span class="line"><span class="comment"># &#125;</span></span><br><span class="line"><span class="comment"># typedef void (*callback)(int i, data_req *data)</span></span><br><span class="line"><span class="comment"># int func(callback c)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> ctypes <span class="keyword">import</span> *</span><br><span class="line">demo_api = CDLL(<span class="string">&quot;lib.so&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">REQ</span>(<span class="title class_ inherited__">Structure</span>):</span><br><span class="line">    _fields_ = [</span><br><span class="line">        (<span class="string">&quot;c&quot;</span>, c_char),</span><br><span class="line">        (<span class="string">&quot;list&quot;</span>, c_int * <span class="number">256</span>),</span><br><span class="line">        (<span class="string">&quot;i&quot;</span>, c_uint),</span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line">callback_type = ctypes.CFUNCTYPE(c_int, REQ)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">print_log</span>(<span class="params">i, data</span>):</span><br><span class="line">    <span class="built_in">print</span>(i, data)</span><br><span class="line"></span><br><span class="line">demo_api.func.argtypes = [c_void_p]</span><br><span class="line">demo_api.func.restype = c_int</span><br><span class="line">res = demo_api.func(callback_type(print_log))</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> C/C++ </tag>
+            
+            <tag> ctypes </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>火烧云</title>
+      <link href="/2022/10/09/tattle/evening-glow/"/>
+      <url>/2022/10/09/tattle/evening-glow/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>子曰：“不逆诈，不亿不信，抑亦先觉者，是贤乎！”</p></blockquote><p>孔子说：“不揣测别人会欺诈，不臆测别人不诚实，但（在欺诈和不诚实发生时）又能及早发觉，这就是‘贤’了！”</p><div class="fj-gallery"><p><img src="/./img/weather/evening-glow.jpeg" alt="全景"><br><img src="/./img/weather/evening-glow0.jpeg" alt="snapshot"></p>          </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> weather </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>厨艺展示</title>
+      <link href="/2022/10/01/tattle/cooking/"/>
+      <url>/2022/10/01/tattle/cooking/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>火锅底料+牛奶+番茄酱<br>稍微多点油煎鸡蛋-&gt;荷包蛋</p></blockquote><div class="fj-gallery"><p><img src="/./img/cookie/noodles.jpeg" alt="10-1意大利面"><br><img src="/./img/cookie/noodles-egg.jpeg" alt="10-1意大利面上的鸡蛋"><br><img src="/./img/cookie/kao-ji-xiong-you.jpeg" alt="9-3鸡胸又"></p>          </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常碎语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> daily </tag>
+            
+            <tag> cookie </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>uwsgi的使用配置</title>
+      <link href="/2022/09/09/soft/python/uwsgi/"/>
+      <url>/2022/09/09/soft/python/uwsgi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="intro"><a href="#intro" class="headerlink" title="intro"></a>intro</h2><p>WSGI 全称是 Web Server Gateway Interface，也就是 Web 服务器网关接口，是一个web服务器（如uWSGI服务器）与web应用（如用Django或Flask框架写的程序）通信的一种规范。WSGI包含了很多自有协议，其中一个是uwsgi，它用于定义传输信息的类型。</p><p>uWSGI是一个Python Web服务器,它实现了WSGI协议、uwsgi、http等协议，常在部署Django或Flask开发的Python Web项目时使用，作为连接Nginx与应用程序之间的桥梁。</p><h2 id="WSGI-x2F-uwsgi-x2F-uWSGI"><a href="#WSGI-x2F-uwsgi-x2F-uWSGI" class="headerlink" title="WSGI&#x2F;uwsgi&#x2F;uWSGI"></a>WSGI&#x2F;uwsgi&#x2F;uWSGI</h2><ul><li>WSGI全名Web Server Gateway Interface，是一个Web服务器（如uWSGI服务器）与web应用（如用Django或Flask框架写的程序）通信的一种规范</li><li>uwsgi是WSGI通信规范中的一种自有协议</li><li>uWSGI是Python Web服务器，实现了WSGI通信规范和uwsgi协议</li></ul><h2 id="why"><a href="#why" class="headerlink" title="why"></a>why</h2><p>Nginx处理静态文件非常优秀，却不能直接与我们的Python Web应用程序进行交互。Django和Flask本身是Web框架，并不是Web服务器，它们自带的runserver和Werkzeug也仅仅用于开发测试环境，生产环境中处理并发的能力太弱。</p><blockquote><p>客户端 &lt;-&gt; Nginx &lt;-&gt; uWSGI &lt;-&gt; Python应用程序(Django, Flask)</p></blockquote><h2 id="install"><a href="#install" class="headerlink" title="install"></a>install</h2><p><code>pip install uwsgi</code> or <code>conda install -c conda-forge uwsgi</code></p><h2 id="command"><a href="#command" class="headerlink" title="command"></a>command</h2><ul><li>start: <code>uwsgi --ini uwsgi.ini</code></li><li>stop: <code>uwsgi --stop $PID_FILE</code></li></ul><h2 id="配置文件demo"><a href="#配置文件demo" class="headerlink" title="配置文件demo"></a>配置文件demo</h2><p><code>%()</code>取值，配置文件如下uwsgi.ini:</p><figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="section">[uwsgi]</span></span><br><span class="line"><span class="attr">uid</span>=&lt;user&gt; <span class="comment"># Ubuntu系统下默认用户名</span></span><br><span class="line"><span class="attr">gid</span>=&lt;group&gt; <span class="comment"># Ubuntu系统下默认用户组</span></span><br><span class="line"><span class="attr">project</span>=&lt;project_name&gt;  <span class="comment"># 项目名</span></span><br><span class="line"><span class="attr">base</span>=/home/&lt;user&gt; <span class="comment"># 项目根目录</span></span><br><span class="line"></span><br><span class="line"><span class="attr">home</span>=%(base)/%(project_venv_dir) <span class="comment"># 设置项目虚拟环境,Docker部署时不需要</span></span><br><span class="line"><span class="attr">chdir</span>=%(base)/%(project_dir) <span class="comment"># 设置工作目录</span></span><br><span class="line"><span class="attr">module</span>=%(project).wsgi:application <span class="comment"># wsgi文件位置</span></span><br><span class="line"></span><br><span class="line"><span class="attr">master</span>=<span class="literal">True</span> <span class="comment"># 主进程</span></span><br><span class="line"><span class="attr">processes</span>=<span class="number">2</span> <span class="comment"># 同时进行的进程数，一般</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 以下uwsgi与nginx通信手段3选一即可，nginx配置要对应</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 选项1, 使用unix socket与nginx通信，仅限于uwsgi和nginx在同一主机上情形</span></span><br><span class="line"><span class="comment"># Nginx配置中uwsgi_pass应指向同一socket文件</span></span><br><span class="line"><span class="comment"># socket=/run/uwsgi/%(project).sock</span></span><br><span class="line"><span class="comment"># 对应nginx中配置如下</span></span><br><span class="line"><span class="comment"># include /etc/nginx/uwsgi_params</span></span><br><span class="line"><span class="comment"># uwsgi_pass unix:/xxx/xxx/xxx.sock</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 选项2，使用TCP socket与nginx通信</span></span><br><span class="line"><span class="comment"># Nginx配置中uwsgi_pass应指向uWSGI服务器IP和端口</span></span><br><span class="line"><span class="comment"># socket=0.0.0.0:8000 或则 socket=:8000</span></span><br><span class="line">socket:9999</span><br><span class="line"><span class="comment"># 对应nginx中配置如下</span></span><br><span class="line"><span class="comment"># include /etc/nginx/uwsgi_params</span></span><br><span class="line"><span class="comment"># uwsgi_pass &lt;ip&gt;:&lt;port&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 选项3，使用http协议与nginx通信</span></span><br><span class="line"><span class="comment"># Nginx配置中proxy_pass应指向uWSGI服务器一IP和端口</span></span><br><span class="line"><span class="comment"># http=0.0.0.0:8000</span></span><br><span class="line"><span class="comment"># 对应nginx中配置如下</span></span><br><span class="line"><span class="comment"># include /etc/nginx/uwsgi_params</span></span><br><span class="line"><span class="comment"># uwsgi_pass http://&lt;ip&gt;:&lt;port&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># socket权限设置</span></span><br><span class="line"><span class="attr">chown-socket</span>=%(uid):www-data</span><br><span class="line"><span class="attr">chmod-socket</span>=<span class="number">664</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 进程文件</span></span><br><span class="line"><span class="attr">pidfile</span>=/tmp/%(project).pid</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 以后台守护进程运行，并将log日志存于temp文件夹。</span></span><br><span class="line"><span class="comment"># 没有时直接运行</span></span><br><span class="line"><span class="attr">daemonize</span>=/var/log/uwsgi/%(project).log</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 服务停止时，自动移除unix socket和pid文件</span></span><br><span class="line"><span class="attr">vacuum</span>=<span class="literal">True</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 为每个工作进程设置请求数的上限。当处理的请求总数超过这个量，进程回收重启。</span></span><br><span class="line"><span class="attr">max-requests</span>=<span class="number">5000</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 当一个请求花费的时间超过这个时间，那么这个请求都会被丢弃。</span></span><br><span class="line"><span class="attr">harakiri</span>=<span class="number">60</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#当一个请求被harakiri杀掉会输出一条日志</span></span><br><span class="line"><span class="attr">harakiri-verbose</span>=<span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># uWsgi默认的buffersize为4096，如果请求数据超过这个量会报错。这里设置为64k</span></span><br><span class="line"><span class="attr">buffer-size</span>=<span class="number">65536</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 如果http请求体的大小超过指定的限制，打开http body缓冲，这里为64k</span></span><br><span class="line"><span class="attr">post-buffering</span>=<span class="number">65536</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#开启内存使用情况报告</span></span><br><span class="line"><span class="attr">memory-report</span>=<span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#设置平滑的重启（直到处理完接收到的请求）的长等待时间(秒)</span></span><br><span class="line"><span class="attr">reload-mercy</span>=<span class="number">10</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#设置工作进程使用虚拟内存超过多少MB就回收重启</span></span><br><span class="line"><span class="attr">reload-on-as</span>=<span class="number">1024</span></span><br></pre></td></tr></table></figure><h2 id="nginx-demo"><a href="#nginx-demo" class="headerlink" title="nginx demo"></a>nginx demo</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 8888:</span><br><span class="line">    charset utf-8;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        root /app/project/dist;</span><br><span class="line">        index index.html index.htm;</span><br><span class="line">        try_files $uri $uri/ /index.html;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location /aaa/bbb &#123;</span><br><span class="line">        uwsgi_pass localhost:9999;</span><br><span class="line">        include /etc/nginx/uwsgi_params;</span><br><span class="line"></span><br><span class="line">        add_header backendIP $upstream_addr;</span><br><span class="line">        add_header backendCode $upstream_status;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> django </tag>
+            
+            <tag> uwsgi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>羽毛球拍选购指南</title>
+      <link href="/2022/09/05/badminton/racket/"/>
+      <url>/2022/09/05/badminton/racket/</url>
+      
+        <content type="html"><![CDATA[<h2 id="球拍长度"><a href="#球拍长度" class="headerlink" title="球拍长度"></a>球拍长度</h2><p>国际羽联规定665mm为羽毛球拍标准长度，最大长度不能超过680mm。</p><p>中国国内市场的羽毛球拍大多数为675mm。</p><p><strong>球拍越长，击球点越高，越容易进攻;<br>球拍越短，打球越灵活，更适合双打发挥威力。</strong></p><h2 id="球拍的重量"><a href="#球拍的重量" class="headerlink" title="球拍的重量"></a>球拍的重量</h2><p>重量这里主要以三大厂 (尤尼克斯，胜利，李宁)的球拍来讲解。<br>这里所说的重量是指空拍，也就是未穿线，未缠好手柄皮时的重量。</p><p><img src="/./img/badminton/racket-weight.jpeg" alt="重量介绍"></p><p>一般来说，球拍越重，进攻性越强，大于85g的拍子都属于进攻性拍子了。</p><h2 id="手柄的粗细"><a href="#手柄的粗细" class="headerlink" title="手柄的粗细"></a>手柄的粗细</h2><p>手柄的精细一般用G来表示，分为G0~G5，数字越大，拍柄就越细，越适合手小的球友。尤尼克斯(YY)和胜利的官方给出的数据有略微的差别:</p><p><img src="/./img/badminton/racket-thick.jpeg" alt="粗细介绍"></p><p><strong>李宁球拍一直是使用S来标注手柄精细的，数值越小，手柄越细。<br>S2对应G5，S3对应G4，S4对应G3。</strong></p><h2 id="中杆的软硬度"><a href="#中杆的软硬度" class="headerlink" title="中杆的软硬度"></a>中杆的软硬度</h2><p>中杆软硬度的话我们可以看球拍的说明书，里面会有写，也可以自己去店里亲身感受下。</p><p><img src="/./img/badminton/racket-soft.jpeg" alt="软硬度介绍"></p><p>球杆上配有一个进度条，越靠近S时，中杆越硬，反之，则软。<br>一般来说，<strong>中管软更适合防守型球员，进攻拍的中管普遍偏硬，软硬适中的拍子就是攻守兼备的拍子。</strong></p><p><strong>中杆越软，也就越弹，对于不会发力的或者腕力较小的初学者，软杆能把球打的更远。</strong><br>但是软杆会大大降低力的传导性和准确性，导致杀球不准，有一种泄力感。初学者建议选择中管较软的球拍。</p><h2 id="平衡点"><a href="#平衡点" class="headerlink" title="平衡点"></a>平衡点</h2><p>平衡点是指拍柄末端到平衡支点(重心)的距离。</p><p><img src="/./img/badminton/racket-balance.jpeg" alt="平衡点介绍"></p><h2 id="拍框的截面"><a href="#拍框的截面" class="headerlink" title="拍框的截面"></a>拍框的截面</h2><p>拍框的截面一般分为<strong>箱式框、破风框、混合框</strong>三种。</p><p><img src="/./img/badminton/racket-section.jpeg" alt="截面介绍"></p><p><strong>箱式框又叫盒式框</strong>，稳定性强，击球时拍框不易抖动变形，大多数进攻球拍使用它，同样的它的截面最大，所受阻力也是最大，影响挥拍速度。</p><p><strong>破风框</strong>的采用菱形截面，挥拍中受阻力小，挥速更快更容易击出快速、凶狠的回球。</p><p><strong>双面异型框</strong>是综合了以上两种框的优点，制作难度更大，对于球员的水平也要求更高，需分清正反拍。</p><p>别的地方我还了解到还有圆框上中下三种组合的不分正反的组合框。兼顾稳定性和破风性要求。</p><h2 id="拍头形状"><a href="#拍头形状" class="headerlink" title="拍头形状"></a>拍头形状</h2><p>从拍头形状区分有方形拍头和圆形拍头，对应的甜区也不相同。甜区是球拍的有效击球区，一般位于球拍中心稍靠上的位置。<br>甜区击球威力大，震动感小，控球性好。<br>方形拍头甜区大，容错率大，对新手更友好。圆形拍头相比方形拍头更小，一般为小拍面，甜区小，对击球技术有一定要求，新手容易打到拍框。</p><p><img src="/./img/badminton/racket-shape.jpeg" alt="形状介绍"></p><h2 id="拉线磅数"><a href="#拉线磅数" class="headerlink" title="拉线磅数"></a>拉线磅数</h2><p>羽毛球拍买过来基本是空拍，我们需要找专业的拉线师拉线，这就涉及到需要拉多少磅的问题了。<br><strong>磅数越高，球的落点就越准，但是费力。<br>磅数越低，落点有偏差，但是弹性好，相对小力。</strong><br>磅数不是拉得越高越好，选择适合自己的磅数才是最好的。<br>同样球拍上也都有标注最高拉线磅线，这个一般为质保磅数。</p><p><img src="/./img/badminton/racket-elasticity.jpeg" alt="磅数介绍"></p><p>初学者和力量小的人建议使用重量较轻拍弦面硬度适中的球拍，一般业余爱好者拉线22-23磅，业余中高级可拉至25磅以上，专业运动员的球拍接线30镑左右。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 运动 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> badminton </tag>
+            
+            <tag> sport </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>羽毛球挥拍</title>
       <link href="/2022/08/29/badminton/note/"/>
       <url>/2022/08/29/badminton/note/</url>
@@ -30,8 +167,8 @@
     
     <entry>
       <title>科学使用cherry-pick</title>
-      <link href="/2022/08/27/soft/git/"/>
-      <url>/2022/08/27/soft/git/</url>
+      <link href="/2022/08/27/soft/linux/cherry-pick/"/>
+      <url>/2022/08/27/soft/linux/cherry-pick/</url>
       
         <content type="html"><![CDATA[<p>无意中发现一篇文章<a href="https://devblogs.microsoft.com/oldnewthing/20180312-00/?p=98215">不要再使用cherry-pick啦</a>。看完之后，发现还是<code>cherry-pick</code>真香，个人看法如下：</p><p>一般使用<code>cherry-pick</code>是在提交代码前发现代码落后时，整理个人开发分支代码，此时解决发现的冲突确实对后续的开发埋下雷，但这种情况特别少见。</p><p>像以小组合作开发的团队，其实这种情况很容易处理，开发小组组件涉及人员少，日常交流多。怎么合理的解决这部分冲突大家很容易达成共鸣；还可以使用下面这种更专业的方式。</p><p>开源代码的维护和开发一般涉及到很多线上开发者的情况，此时没有办法开会或者沟通所有相关人员。遇到这种情况，读过<strong>程序员的自我修养</strong>的开发者一般也不会轻易解决冲突就提合并请求，而是会针对冲突部分代码影响到的内容做审查，如果非要解决冲突才可以，就针对性单独提交一个相当于合并的节点；而不是将解决冲突藏在另一个开发节点中。</p><hr><blockquote><p><code>git commit --amend --reset-author</code>则将作者重置为您自己或您指定的任何人。您也可以通过这种方式在此时指定作者日期。也可在<code>cherry-pick</code>之后变更操作信息</p></blockquote>]]></content>
       
@@ -81,11 +218,11 @@
     
     
     <entry>
-      <title>厨艺展示</title>
+      <title>私厨</title>
       <link href="/2022/08/16/tattle/zheng-dou-fu/"/>
       <url>/2022/08/16/tattle/zheng-dou-fu/</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/./img/cookie/zheng-dou-fu.jpeg" alt="8-16蒸豆腐"><br><img src="/./img/cookie/coke-chicken.jpeg" alt="8-24可乐鸡翅"><br><img src="/./img/cookie/hong-shao-you.jpeg" alt="8-27红烧又"><br><img src="/./img/cookie/kao-ji-xiong-you.jpeg" alt="9-3鸡胸又"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/./img/cookie/zheng-dou-fu.jpeg" alt="8-16蒸豆腐"><br><img src="/./img/cookie/coke-chicken.jpeg" alt="8-24可乐鸡翅"><br><img src="/./img/cookie/hong-shao-you.jpeg" alt="8-27红烧又"></p>          </div>]]></content>
       
       
       <categories>
@@ -197,8 +334,8 @@
     
     <entry>
       <title>nginx安装和使用</title>
-      <link href="/2022/06/22/soft/nginx/"/>
-      <url>/2022/06/22/soft/nginx/</url>
+      <link href="/2022/06/22/soft/linux/nginx/"/>
+      <url>/2022/06/22/soft/linux/nginx/</url>
       
         <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul><li><code>sudo apt-get install nginx</code><ul><li>配置文件<code>/etc/nginx/nginx.conf</code><ul><li><code>include /etc/nginx/conf.d/*.conf</code></li></ul></li></ul></li><li><code>sudo /etc/init.d/nginx start</code></li><li><code>nginx -s reload</code></li><li><code>curl http://localhost/</code>或者<code>sudo nginx -t</code> # test</li></ul><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>blog.conf:</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    # http socket</span><br><span class="line">    listen       443 ssl;</span><br><span class="line">    server_name  luckyu.com.cn;</span><br><span class="line"></span><br><span class="line">    charset utf-8;</span><br><span class="line">    # access_log /var/log/nginx/blog.access.log main;</span><br><span class="line"></span><br><span class="line">    ssl_certificate   blog/luckyu.com.cn_bundle.pem;</span><br><span class="line">    ssl_certificate_key  blog/luckyu.com.cn.key;</span><br><span class="line">    ssl_session_timeout 5m;</span><br><span class="line">    # ssl_ciphers ....;</span><br><span class="line">    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">    ssl_prefer_server_ciphers on;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        include uwsgi_params;</span><br><span class="line">        # 接口映射 映射本地服务接口</span><br><span class="line">        # uwsgi_pass unix:/tmp/uwsgi.sock;</span><br><span class="line">        # proxy_pass http://localhost:8000;</span><br><span class="line">        # 配置静态资源路径</span><br><span class="line">        root /home/baiker/hexo/blog/public;</span><br><span class="line">        index index.html;</span><br><span class="line">        rewrite ^/(.*)$ /$1 break;</span><br><span class="line">    &#125;</span><br><span class="line">    # 端口映射 重定向评论接口</span><br><span class="line">    location /comments &#123;</span><br><span class="line">        include uwsgi_params;</span><br><span class="line">        uwsgi_pass unix:/tmp/uwsgi.sock;</span><br><span class="line">        proxy_pass http://127.0.0.1:8080;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    server_name www.luckyu.com.cn;</span><br><span class="line">    # 重定向</span><br><span class="line">    rewrite ^(.*)$ https://$&#123;server_name&#125;$1 permanent;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="使用公共配置"><a href="#使用公共配置" class="headerlink" title="使用公共配置"></a>使用公共配置</h2><p><code>include conf.d/proxy.inc;</code></p><p>proxy.inc:(demo)</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">expires off;</span><br><span class="line">proxy_set_header Host $host;</span><br><span class="line">proxy_set_header X-Real-Ip $remote_addr;</span><br><span class="line">proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">proxy_set_header X-Forwarded-Host $host:$server_port;</span><br><span class="line">proxy_set_header X-Forwarded-Proto $scheme;</span><br><span class="line">proxy_connect_timeout 7d;</span><br><span class="line">proxy_send_timeout 7d;</span><br><span class="line">proxy_read_timeout 7d;</span><br><span class="line">add_header backendIP $upstream_addr;</span><br><span class="line">add_header backendCode $upstream_status;</span><br><span class="line">break;</span><br></pre></td></tr></table></figure>]]></content>
       
