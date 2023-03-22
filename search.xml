@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>打满cpu/io/memory</title>
+      <link href="/2023/03/22/soft/linux/full-cpu-io-memory/"/>
+      <url>/2023/03/22/soft/linux/full-cpu-io-memory/</url>
+      
+        <content type="html"><![CDATA[<p>都涉及到<a href="http://c.biancheng.net/linux/dd.html">dd</a>命令</p><p>以及linux一些特殊文件</p><ul><li>&#x2F;dev&#x2F;null，也叫空设备，小名“无底洞”。任何写入它的数据都会被无情抛弃。</li><li>&#x2F;dev&#x2F;zero，可以产生连续不断的 null 的流（二进制的零流），用于向设备或文件写入 null 数据，一般用它来对设备或文件进行初始化。</li><li>&#x2F;dev&#x2F;urandom，它是“随机数设备”，它的本领就是可以生成理论意义上的随机数。</li></ul><p>dd demo：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#向磁盘上写一个大文件, 来看写性能</span></span><br><span class="line">[root@roclinux ~]<span class="comment"># dd if=/dev/zero bs=1024 count=1000000 of=/root/1Gb.file</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#从磁盘上读取一个大文件, 来看读性能</span></span><br><span class="line">[root@roclinux ~]<span class="comment"># dd if=/root/1Gb.file bs=64k | dd of=/dev/null</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 上面命令生成了一个 1GB 的文件 1Gb.file，下面我们配合 time 命令，可以看出不同的块大小数据的写入时间，从而可以测算出到底块大小为多少时可以实现最佳的写入性能。</span></span><br><span class="line">[root@roclinux ~]<span class="comment"># time dd if=/dev/zero bs=1024 count=1000000 of=/root/1Gb.file</span></span><br><span class="line">[root@roclinux ~]<span class="comment"># time dd if=/dev/zero bs=2048 count=500000 of=/root/1Gb.file</span></span><br><span class="line">[root@roclinux ~]<span class="comment"># time dd if=/dev/zero bs=4096 count=250000 of=/root/1Gb.file</span></span><br><span class="line">[root@roclinux ~]<span class="comment"># time dd if=/dev/zero bs=8192 count=125000 of=/root/1Gb.file</span></span><br></pre></td></tr></table></figure><h2 id="cpu"><a href="#cpu" class="headerlink" title="cpu"></a>cpu</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 打满4核cpu机器 lscpu</span><br><span class="line">for i in $(seq 1 4);do</span><br><span class="line">    dd if=/dev/zero of=/dev/null &amp;</span><br><span class="line">done</span><br></pre></td></tr></table></figure><h2 id="memory"><a href="#memory" class="headerlink" title="memory"></a>memory</h2><p>运行这个脚本，然后使用free命令查看MEM的使用情况</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># 占用1GB内存1个小时. 注意需要可以mount的权限</span></span><br><span class="line"><span class="built_in">mkdir</span> /tmp/memory</span><br><span class="line">mount -t tmpfs -o size=1024M tmpfs /tmp/memory</span><br><span class="line"><span class="built_in">dd</span> <span class="keyword">if</span>=/dev/zero of=/tmp/memory/block</span><br><span class="line"><span class="built_in">sleep</span> 3600</span><br><span class="line"><span class="built_in">rm</span> /tmp/memory/block</span><br><span class="line">umount /tmp/memory</span><br><span class="line"><span class="built_in">rmdir</span> /tmp/memory</span><br></pre></td></tr></table></figure><h2 id="io"><a href="#io" class="headerlink" title="io"></a>io</h2><p>运行这个脚本，然后使用iostat命令查看IO的使用情况</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> <span class="literal">true</span>; <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">dd</span> <span class="keyword">if</span>=/dev/urandom of=/burn bs=1M count=1024 iflag=fullblock</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure><p>if指定输入的文件名，of指定输出的文件名，bs同时设置读写块的大小为1M，count是指仅拷贝1024个块，块大小等于bs指定的字节数。iflag&#x3D;fullblock表示堆积满block。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>羽毛球消费记录</title>
       <link href="/2023/02/21/badminton/consume/"/>
       <url>/2023/02/21/badminton/consume/</url>
